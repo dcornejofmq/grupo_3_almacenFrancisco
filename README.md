@@ -10,6 +10,13 @@ Objetivo:
 
 Equipo de Proyecto:
 
+Cristian stefani
+
+David Iñiguez
+
+Daniel Cornejo
+
+
 Metodologia:
 
 
