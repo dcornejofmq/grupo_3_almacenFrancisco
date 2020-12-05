@@ -8,7 +8,7 @@
 <body lang=ES-AR>
 
 <p class=MsoNormal><img width=106 height=81
-src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/DanielCornejo.jpg" align=left hspace=12
+src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/DanielCornejo.jpg" align=left hspace=12
 </p>
 
 <p class=MsoNormal><b><span style='font-size:18.0pt;line-height:107%'>Daniel
