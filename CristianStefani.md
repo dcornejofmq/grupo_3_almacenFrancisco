@@ -39,4 +39,4 @@ Metodos de entrega o retiro de sucursal
 
 ## Logo
 
-![Vista](/Imagenes/Logo.PNG)
+![Vista](/Imagenes/Logo.JPG)
