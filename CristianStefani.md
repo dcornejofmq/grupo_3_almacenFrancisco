@@ -17,7 +17,7 @@ Realizar un proyecto que nos permita introducir todo nuestro aprendizaje constan
 ## Referentes
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
-![Vista](/imagenes/Walmart.PNG)
+![Vista](/Imagenes/Walmart.PNG)
 
 - [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi?DPSLogout=true)
 Logueo y registración web.
@@ -39,4 +39,4 @@ Metodos de entrega o retiro de sucursal
 
 ## Logo
 
-![Vista](/Imagenes/Logo.JPG)
+![Vista](/Imagenes/Logo.jpeg)
