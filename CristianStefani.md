@@ -17,17 +17,17 @@ Realizar un proyecto que nos permita introducir todo nuestro aprendizaje constan
 ## Referentes
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
-![Vista](/public/Img/Walmart.PNG)
+![Vista](/grupo_3_almacenFrancisco/public/Img/Walmart.PNG)
 
 - [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi?DPSLogout=true)
 Logueo y registración web.
-![Vista](/public/Img/Coto.PNG)
+![Vista](/grupo_3_almacenFrancisco/public/Img/Coto.PNG)
 - [___Carrefour___](https://www.carrefour.com.ar/)
 Carrito de compras
-![Vista](/public/Img/Carrefour.PNG)
+![Vista](/grupo_3_almacenFrancisco/public/Img/Carrefour.PNG)
 -  [___Jumbo___](https://www.jumbo.com.ar/)
 Metodos de entrega o retiro de sucursal
-![Vista](/public/Img/Jumbo.PNG)
+![Vista](/grupo_3_almacenFrancisco/public/Img/Jumbo.PNG)
 ## *Wireframes*
 
 
@@ -39,4 +39,4 @@ Metodos de entrega o retiro de sucursal
 
 ## Logo
 
-![Vista](/public/Img/Logo.jpeg)
+![Vista](/grupo_3_almacenFrancisco/public/Img/Logo.jpeg)
