@@ -16,11 +16,11 @@ src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/DavidIn
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal style='text-align:justify'>...</p>
+<p class=MsoNormal style='text-align:justify'>Soy David Iñiguez, tengo 33 años, vivo en la localidad de San Miguel Provincia de Buenos Aires.</p>
 
-<p class=MsoNormal style='text-align:justify'>....</p>
+<p class=MsoNormal style='text-align:justify'>Es mi primera experiencia en el mundo de la programación, soy empleado en la municipalidad de San Fernando y tengo experincia en el uso de programas de diseño gráfico (Ilustrator, Corel Draw y Photoshop).</p>
 
-<p class=MsoNormal style='text-align:justify'>.....</p>
+<p class=MsoNormal style='text-align:justify'>Con muchas ganas de trabajar en el equipo, aprender de la experincia de mis compañeros y aportar mis conocimientos.</p>
 
 </div>
 
