@@ -8,26 +8,26 @@ Nuestro proyecto e-commerce esta pensado para el almacén  **FRANCISCO** que nec
 Realizar un proyecto que nos permita introducir todo nuestro aprendizaje constante al servicio del cliente.
 
 ## *Integrantes*
-* **Cristian Stefani** 
-15 años de Soporte Técnico, Cursando el 3 año de la carrera Licenciatura en Sistemas.
-* Daniel Cornejo
+* **<a href="CristianStefani.md" >Cristian stefani</a>** 
 
-* David Iñiguez 
+* **<a href="DanielCornejo.md" >Daniel Cornejo</a>**
+
+* **<a href="DavidIniguez.md" >David Iñiguez</a>**
 
 ## Referentes
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
-![Vista](/Imagenes/Walmart.PNG)
+![Vista](/public/Img/Walmart.PNG)
 
 - [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi?DPSLogout=true)
 Logueo y registración web.
-![Vista](/Imagenes/Coto.PNG)
+![Vista](/public/Img/Coto.PNG)
 - [___Carrefour___](https://www.carrefour.com.ar/)
 Carrito de compras
-![Vista](/Imagenes/Carrefour.PNG)
+![Vista](/public/Img/Carrefour.PNG)
 -  [___Jumbo___](https://www.jumbo.com.ar/)
 Metodos de entrega o retiro de sucursal
-![Vista](/Imagenes/Jumbo.PNG)
+![Vista](/public/Img/Jumbo.PNG)
 ## *Wireframes*
 
 
@@ -39,4 +39,4 @@ Metodos de entrega o retiro de sucursal
 
 ## Logo
 
-![Vista](/Imagenes/Logo.jpeg)
+![Vista](/public/Img/Logo.jpeg)
