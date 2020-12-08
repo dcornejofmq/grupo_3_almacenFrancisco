@@ -27,7 +27,7 @@ Carrito de compras
 ![Vista](/Public/Img/Carrefour.PNG)
 -  [___Jumbo___](https://www.jumbo.com.ar/)
 Metodos de entrega o retiro de sucursal
-![Vista](/grupo_3_almacenFrancisco/Public/Img/Jumbo.PNG)
+![Vista](/Public/Img/Jumbo.PNG)
 ## *Wireframes*
 
 
