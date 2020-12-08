@@ -28,27 +28,27 @@ Desarrollo / UI / UX
 ## Referentes
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
-![Vista](/Public/img/Walmart.PNG)
+![Vista](/Public/Img/Walmart.PNG)
 
 - [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi?DPSLogout=true)
 Logueo y registración web.
-![Vista](/Public/img/Coto.PNG)
+![Vista](/Public/Img/Coto.PNG)
 - [___Carrefour___](https://www.carrefour.com.ar/)
 Carrito de compras
-![Vista](/Public/img/Carrefour.PNG)
+![Vista](/Public/Img/Carrefour.PNG)
 -  [___Jumbo___](https://www.jumbo.com.ar/)
 Metodos de entrega o retiro de sucursal
-![Vista](/Public/img/Jumbo.PNG)
+![Vista](/Public/Img/Jumbo.PNG)
 
 ## *Wireframes*
 - ### ** Home **
-![Vista](/Public/img/Home.PNG)
+![Vista](/Public/Img/Home.PNG)
 
 - ### ** Formulario Login **
-![Vista](/Public/img/Formulario Login.PNG)
+![Vista](/Public/Img/FormularioLogin.PNG)
 
 - ### ** Formulario Login **
-![Vista](/Public/img/Formulario de Registro.PNG)
+![Vista](/Public/Img/FormularioRegistro.PNG)
 ## *Colores*
 
 ## *Tipografía*
