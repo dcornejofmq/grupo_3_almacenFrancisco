@@ -1,5 +1,6 @@
 # *Proyecto Almacén Francisco!*
-![Vista](/Public/img/Logo_Almacen_Francisco_100x100.jpg)
+
+![Vista](/Public/Img/Logo_Almacen_Francisco_100x100.jpg)
 
 Nuestro proyecto e-commerce esta pensado para el Almacén  **FRANCISCO** que quiere mejorar el servicio a sus clientes sumando un canal digital de venta online con servicio de entrega en su zona. Además en su estrategia comercial quiere incorporar la posibilidad de que se puedan retirar los pedidos preparados con antelación para disminuir el tiempo de espera. Con respecto a las formas de pago, quiere incorporaran medios de pagos electrónicos ( transferencias, tarjetas de crédito y debito ).
 
