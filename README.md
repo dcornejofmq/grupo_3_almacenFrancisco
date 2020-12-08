@@ -41,7 +41,14 @@ Metodos de entrega o retiro de sucursal
 ![Vista](/Public/img/Jumbo.PNG)
 
 ## *Wireframes*
+- ### ** Home **
+![Vista](/Public/img/Home.PNG)
 
+- ### ** Formulario Login **
+![Vista](/Public/img/Formulario Login.PNG)
+
+- ### ** Formulario Login **
+![Vista](/Public/img/Formulario de Registro.PNG)
 ## *Colores*
 
 ## *Tipografía*
