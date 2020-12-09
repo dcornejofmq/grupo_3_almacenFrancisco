@@ -30,7 +30,7 @@ Desarrollo / UI / UX
 Carrusel de ofertas, búsqueda y listado de productos.
 ![Vista](/Public/Img/Walmart.PNG)
 
-- [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi?DPSLogout=true)
+- [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi/myaccount/login.jsp?loginFromHeader=yes&loginSuccessURL=/myaccount/loginAddress.jsp)
 Logueo y registración web.
 ![Vista](/Public/Img/Coto.PNG)
 - [___Carrefour___](https://www.carrefour.com.ar/)
