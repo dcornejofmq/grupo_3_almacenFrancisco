@@ -40,6 +40,10 @@ Carrito de compras
 Metodos de entrega o retiro de sucursal
 ![Vista](/Public/Img/Jumbo.PNG)
 
+-  [___Busqueda Web___]
+Formulario de Registro Web
+![Vista](https://xavizquierdo.files.wordpress.com/2013/04/jom.png?w=614)
+
 ## *Wireframes*
 - ### ** Home **
 ![Vista](/Public/Img/Home.png)
