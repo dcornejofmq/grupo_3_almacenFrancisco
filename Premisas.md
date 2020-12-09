@@ -8,15 +8,6 @@ Nuestro proyecto e-commerce esta pensado para el Almacén  **FRANCISCO** que qui
 
 Satisfacer las necesidades del Almacén **FRANCISCO**, aplicando metodologías agiles y afianzando los conocimientos adquiridos por el equipo sobre desarrollo FullStack durante el curso 2020.
 
-# *Premisas y Necesidades del Almacén **FRANCISCO**
-
-En el link siguiente se detallan las premisas y necesidadas del Cliente
-
-[**El Proyecto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Premisas.md "El Proyecto")
-
-<img width="500" height="400"  alt="eCommerce" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/ecommerce.gif">
-
-
 ## *Equipo de Proyecto - Roles*
 
 <img width="700" height="400"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Equipo_SCRUM.png">

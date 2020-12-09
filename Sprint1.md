@@ -1,4 +1,35 @@
-# *Proyecto Almacén Francisco!*
+# *Sprint 1 - Proyecto Almacén Francisco!*
+
+<img width="200" height="150"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Logo_Almacen_Francisco_100x100.jpg">
+
+## Objetivos del Sprint 1
+
+1.Crear el repositorio del proyecto y agregar colaboradores
+2.Definir la temática del Market Place
+3.Buscar inspiración en referentes del mercado 
+4.Crear un wireframe y un boceto del sitio
+
+## Resumen de entregables
+1.URL del repositorio con todos los colaboradores agregados.
+2.Archivo README.md con:
+ Temática del sitio y público objetivo.
+ Listado de al menos 5 referentes.
+3.Wireframe de las siguientes páginas:
+ Home
+ Detalle de producto
+ Carrito de compras
+ Formulario de registro
+ Formulario de login
+4.Opcional: Boceto o diseño gráfico del sitio (logo, colores, tipografías, etc).
+
+### Repositorio del Proyecto
+
+### Temática del Market Place
+
+### WEB Referentes del mercado 
+
+### Wireframe y un boceto del sitio
+
 
 <img width="200" height="150"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Logo_Almacen_Francisco_100x100.jpg">
 
@@ -7,15 +38,6 @@ Nuestro proyecto e-commerce esta pensado para el Almacén  **FRANCISCO** que qui
 # *Objetivo*
 
 Satisfacer las necesidades del Almacén **FRANCISCO**, aplicando metodologías agiles y afianzando los conocimientos adquiridos por el equipo sobre desarrollo FullStack durante el curso 2020.
-
-# *Premisas y Necesidades del Almacén **FRANCISCO**
-
-En el link siguiente se detallan las premisas y necesidadas del Cliente
-
-[**El Proyecto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Premisas.md "El Proyecto")
-
-<img width="500" height="400"  alt="eCommerce" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/ecommerce.gif">
-
 
 ## *Equipo de Proyecto - Roles*
 
