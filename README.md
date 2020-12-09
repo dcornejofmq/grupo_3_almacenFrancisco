@@ -12,13 +12,13 @@ Satisfacer las necesidades del Almacén **FRANCISCO**, aplicando metodologías a
 
 <img width="700" height="400"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Equipo_SCRUM.png">
 
-Product Owners (POs) / Scrum Masters (SM)
+### Product Owners (POs) / Scrum Masters (SM)
 
 [**Juan Pablo Paillet**](https://www.linkedin.com/in/pailletjp/ "Juan Pablo Paillet")
 
 [**Eduardo Virgilio**](https://www.linkedin.com/in/eduardomiguelvirgilio/ "Eduardo Virgilio")
 
-Desarrollo / UI / UX
+### Desarrollo / UI / UX
 
 [**Cristian Stefani**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/CristianStefani.md "Cristian Stefani")
 
