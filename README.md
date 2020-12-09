@@ -39,9 +39,8 @@ Carrito de compras
 -  [___Jumbo___](https://www.jumbo.com.ar/)
 Metodos de entrega o retiro de sucursal
 ![Vista](/Public/Img/Jumbo.PNG)
-
 -  [___Busqueda Web___](https://www.google.com.ar/)
-Formulario de Registro Web
+Formulario de registro de usuario para realizar compras
 ![Vista](https://xavizquierdo.files.wordpress.com/2013/04/jom.png?w=614)
 
 ## *Wireframes*
