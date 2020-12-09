@@ -1,6 +1,6 @@
 # *Proyecto Almacén Francisco!*
 
-<img width="300" height="250"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Logo_Almacen_Francisco_100x100.jpg">
+<img width="200" height="150"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Logo_Almacen_Francisco_100x100.jpg">
 
 Nuestro proyecto e-commerce esta pensado para el Almacén  **FRANCISCO** que quiere mejorar el servicio a sus clientes sumando un canal digital de venta online con servicio de entrega en su zona. Además en su estrategia comercial quiere incorporar la posibilidad de que se puedan retirar los pedidos preparados con antelación para disminuir el tiempo de espera. Con respecto a las formas de pago, quiere incorporaran medios de pagos electrónicos ( transferencias, tarjetas de crédito y debito ).
 
@@ -72,15 +72,16 @@ Web: Myriad pro regular , Myriad pro semubold , Myriad pro bold <br>
 Logo: Dolce vita heavy bold , Dolce vita light
 ## Metodologia:
 El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este proyecto.
-La ejecución tendra una duración de 9 Sprints:
-  1. Wireframes + Boceto
-  2. HTML - CSS
-  3. Template Enginess
-  4. JSON + métodos HTTP
-  5. Middleware + Auth
-  6, Bases de datos
-  7, Validaciones
-  8. APIs + React
+La ejecución tendra una duración de 8 Sprints:
+
+1. Wireframes + Boceto
+2. HTML + CSS
+3. Template Enginess
+4. JSON + métodos HTTP
+5. Middleware + Auth
+6. Bases de datos
+7. Validaciones
+8. APIs + React
 
 ![Vista](https://comunidad.iebschool.com/metodologiasagiles/files/2015/05/metodologias-agiles.jpg)
 -  [___¿Que es Metodologia Agil?___](https://prezi.com/qqawvvdi9as_/metodologias-agiles/)
