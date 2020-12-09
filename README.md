@@ -50,7 +50,7 @@ Formulario de registro de usuario para realizar compras
 - ### ** Formulario Login **
 ![Vista](/Public/Img/FormularioLogin.png)
 
-- ### ** Formulario Login **
+- ### ** Formulario de Registro **
 ![Vista](/Public/Img/FormularioRegistro.png)
 ## *Colores*
 rgb (0,0,0)<br>
