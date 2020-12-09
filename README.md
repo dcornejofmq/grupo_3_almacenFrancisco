@@ -36,7 +36,7 @@ Logueo y registración web.
 - [___Carrefour___](https://www.carrefour.com.ar/)
 Carrito de compras
 ![Vista](/Public/Img/Carrefour.PNG)
--  [___Jumbo___](https://www.jumbo.com.ar/)
+-  [___Jumbo___](https://www.jumbo.com.ar/institucional/metodos-de-entrega)
 Metodos de entrega o retiro de sucursal
 ![Vista](/Public/Img/Jumbo.PNG)
 -  [___Busqueda Web___](https://www.google.com.ar/)
