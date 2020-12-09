@@ -42,13 +42,13 @@ Metodos de entrega o retiro de sucursal
 
 ## *Wireframes*
 - ### ** Home **
-![Vista](/Public/Img/Home.PNG)
+![Vista](/Public/Img/Home.png)
 
 - ### ** Formulario Login **
-![Vista](/Public/Img/FormularioLogin.PNG)
+![Vista](/Public/Img/FormularioLogin.png)
 
 - ### ** Formulario Login **
-![Vista](/Public/Img/FormularioRegistro.PNG)
+![Vista](/Public/Img/FormularioRegistro.png)
 ## *Colores*
 rgb (0,0,0)<br>
 rgb (225,255,225)<br>
