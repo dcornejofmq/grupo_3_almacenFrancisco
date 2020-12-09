@@ -50,14 +50,14 @@ Metodos de entrega o retiro de sucursal
 - ### ** Formulario Login **
 ![Vista](/Public/Img/FormularioRegistro.PNG)
 ## *Colores*
-rgb (0,0,0)
-rgb (225,255,225)
-rgb (219,219,219)
-rgb (235,114,5)
-rgb (87,127,175)
+rgb (0,0,0)<br>
+rgb (225,255,225)<br>
+rgb (219,219,219)<br>
+rgb (235,114,5)<br>
+rgb (87,127,175)<br>
 rgb (9,72,153)
 ## *Tipografía*
-Web: Myriad pro regular , Myriad pro semubold , Myriad pro bold
+Web: Myriad pro regular , Myriad pro semubold , Myriad pro bold <br>
 Logo: Dolce vita heavy bold , Dolce vita light
 ## Logo
 
