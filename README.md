@@ -52,6 +52,12 @@ Formulario de registro de usuario para realizar compras
 
 - ### ** Formulario de Registro **
 ![Vista](/Public/Img/FormularioRegistro.png)
+
+- ### ** Detalle de Producto **
+![Vista](/Public/Img/DetalleProducto.png)
+
+- ### ** Carrito de Compras **
+![Vista](/Public/Img/CarroCompras.png)
 ## *Colores*
 rgb (0,0,0)<br>
 rgb (225,255,225)<br>
