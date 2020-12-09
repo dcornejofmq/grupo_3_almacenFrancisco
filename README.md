@@ -43,14 +43,20 @@ El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este 
 
 ## Etapas del Proyecto:
 La ejecución tendra una duración de 8 Sprints:
-(Según se avance en la ejecución, se incluirá un link en cada Sprint al documento con el detalle )
+(En los siguientes links se encuentran los accesos a los documentos del detalle de cada Sprint )
 
 1. [**Wireframes + Boceto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint1.md "Wireframes + Boceto")
-2. HTML + CSS
-3. Template Enginess
-4. JSON + métodos HTTP
-5. Middleware + Auth
-6. Bases de datos
-7. Validaciones
-8. APIs + React
-
+2. [**HTML + CSS**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint2.md "HTML + CSS")
+3. [**Template Enginess**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint3.md "Template Enginess")
+4. [**JSON + métodos HTTP**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint4.md "JSON + métodos HTTP")
+5. [**Middleware + Auth**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint5.md "Middleware + Auth")
+6. [**Bases de datos**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint6.md "Bases de datos")
+7. [**Validaciones**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint7.md "Validaciones")
+8. [**APIs + React**]
+(https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint8.md "APIs + React")
