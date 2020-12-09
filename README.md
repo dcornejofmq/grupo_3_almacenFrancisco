@@ -72,6 +72,21 @@ Logo: Dolce vita heavy bold , Dolce vita light
 
 Metodologia:
 
+El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este proyecto.
+La ejecución tendra una duración de 9 Sprints:
+  1. Wireframes + Boceto
+  2. HTML - CSS
+  3. Template Enginess
+  4. JSON + métodos HTTP
+  5. Middleware + Auth
+  6, Bases de datos
+  7, Validaciones
+  8. APIs + React
+
+![Vista](https://comunidad.iebschool.com/metodologiasagiles/files/2015/05/metodologias-agiles.jpg)
+-  [___¿Que es Metodologia Agil?___](https://prezi.com/qqawvvdi9as_/metodologias-agiles/)
+
+
 Locación:
 
 Clientes:
