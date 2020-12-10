@@ -11,17 +11,17 @@
 4. Crear un wireframe y un boceto del sitio
 
 ## Resumen de entregables
-1. URL del repositorio con todos los colaboradores agregados.
+1. URL del repositorio con todos los colaboradores agregados
 2. Archivo README.md con:
-    2.1 Temática del sitio y público objetivo.
-    2.2 Listado de al menos 5 referentes.
+    2.1 Temática del sitio y público objetivo
+    2.2 Listado de al menos 5 referentes
 3. Wireframe de las siguientes páginas:
     3.1 Home
     3.2 Detalle de producto
     3.3 Carrito de compras
     3.4 Formulario de registro
     3.5 Formulario de login
-4. Opcional: Boceto o diseño gráfico del sitio (logo, colores, tipografías).
+4. Opcional: Boceto o diseño gráfico del sitio (logo, colores, tipografías)
 
 ### Repositorio del Proyecto
 
@@ -29,12 +29,11 @@ El proyecto estará contenido en el repositorio [**Github**](https://github.com/
 
 ### Temática del Market Place
 
-Este canal digital dara soporte a la estrategia comercial de un Almacén de Barrio situado en la zona norte de la Ciudad de Buenos Aires. Solo se comercializaran productos de almacen, con delivery solo en la zona.
+Este canal digital dará soporte a la estrategia comercial de un Almacén de Barrio situado en la zona norte de la Ciudad de Buenos Aires. Sólo se comercializarán productos de almacén, con delivery solo en la zona.
 
 ### WEB Referentes del mercado 
 
-Aunque la estrategia comercial esta fuertemente orientada a la venta minorista dentro del barrio. Por usabilidad y facilidad para los clientes, se toman como WEBs de referencias, los ecommerce de los supermercados de la zona.
-
+Aunque la estrategía comercial está fuertemente orientada a la venta minorista dentro del barrio, por usabilidad y facilidad para los clientes, se toman como WEBs de referencias, los ecommerce de los supermercados de la zona.
 
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
@@ -58,7 +57,7 @@ Formulario de registro de usuario para realizar compras
 
 ### Wireframe y un boceto del sitio
 
-El sitio de Ventas del Almacén Francisco contara con las siguientes interfaces de usuario:
+El sitio de Ventas del Almacén Francisco contará con las siguientes interfaces de usuario:
 
 - ### ** Home **
 <img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Home.png">
@@ -77,7 +76,7 @@ El sitio de Ventas del Almacén Francisco contara con las siguientes interfaces 
 
 ## *Colores*
 
-En este proyecto se utilizara la siguiente paleta de colores
+En este proyecto se utilizará la siguiente paleta de colores:
 
 rgb (0,0,0)<br>
 rgb (225,255,225)<br>
@@ -88,14 +87,14 @@ rgb (9,72,153)
 
 ## *Tipografía*
 
-Todo el sitio será construido respetando la siguiente tipografia:
+Todo el sitio será construido respetando la siguiente tipografía:
 
 Web: Myriad pro regular , Myriad pro semubold , Myriad pro bold <br>
 
 ## *Logo*
 
 El logo ha sido diseñado y aprobado por los dueños del Almacén. 
-### Se construyo con las tipografia:
+### Se construyó con las tipografía:
 
 *Dolce vita heavy bold , Dolce vita light*
 
