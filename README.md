@@ -12,7 +12,7 @@ Satisfacer las necesidades del Almacén **FRANCISCO**, aplicando metodologías a
 
 En el link siguiente se detallan las premisas y necesidadas del Cliente
 
-[**El Proyecto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Premisas.md "El Proyecto")
+[**El Proyecto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Premisas.md "El Proyecto")
 
 <img width="400" height="300"  alt="eCommerce" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/ecommerce.gif">
 
@@ -29,11 +29,11 @@ En el link siguiente se detallan las premisas y necesidadas del Cliente
 
 ### Desarrollo / UI / UX
 
-[**Cristian Stefani**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/CristianStefani.md "Cristian Stefani")
+[**Cristian Stefani**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/CristianStefani.md "Cristian Stefani")
 
-[**David Iñiguez**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/DavidIniguez.md "David Iñiguez")
+[**David Iñiguez**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/DavidIniguez.md "David Iñiguez")
 
-[**Daniel Cornejo**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/DanielCornejo.md "Daniel Cornejo")
+[**Daniel Cornejo**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/DanielCornejo.md "Daniel Cornejo")
 
 ## Metodologia:
 El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este proyecto.
@@ -45,11 +45,11 @@ El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este 
 La ejecución tendra una duración de 8 Sprints:
 (En los siguientes links se encuentran los accesos a los documentos del detalle de cada Sprint )
 
-1. [**Wireframes + Boceto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint1.md "Wireframes + Boceto")
-2. [**HTML + CSS**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint2.md "HTML + CSS")
-3. [**Template Enginess**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint3.md "Template Enginess")
-4. [**JSON + métodos HTTP**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint4.md "JSON + métodos HTTP")
-5. [**Middleware + Auth**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint5.md "Middleware + Auth")
-6. [**Bases de datos**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint6.md "Bases de datos")
-7. [**Validaciones**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint7.md "Validaciones")
-8. [**APIs + React**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Sprint8.md "APIs + React")
+1. [**Wireframes + Boceto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint1.md "Wireframes + Boceto")
+2. [**HTML + CSS**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint2.md "HTML + CSS")
+3. [**Template Enginess**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint3.md "Template Enginess")
+4. [**JSON + métodos HTTP**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint4.md "JSON + métodos HTTP")
+5. [**Middleware + Auth**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint5.md "Middleware + Auth")
+6. [**Bases de datos**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint6.md "Bases de datos")
+7. [**Validaciones**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/design/Sprint7.md "Validaciones")
+8. [**APIs + React**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint8.md "APIs + React")
