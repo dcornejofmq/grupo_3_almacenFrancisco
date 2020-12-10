@@ -13,14 +13,14 @@
 ## Resumen de entregables
 1. URL del repositorio con todos los colaboradores agregados
 2. Archivo README.md con:
-    2.1 Temática del sitio y público objetivo
-    2.2 Listado de al menos 5 referentes
+    - Temática del sitio y público objetivo
+    - Listado de al menos 5 referentes
 3. Wireframe de las siguientes páginas:
-    3.1 Home
-    3.2 Detalle de producto
-    3.3 Carrito de compras
-    3.4 Formulario de registro
-    3.5 Formulario de login
+    - Home
+    - Detalle de producto
+    - Carrito de compras
+    - Formulario de registro
+    - Formulario de login
 4. Opcional: Boceto o diseño gráfico del sitio (logo, colores, tipografías)
 
 ### Repositorio del Proyecto
