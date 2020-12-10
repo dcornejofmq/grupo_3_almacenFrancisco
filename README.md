@@ -6,7 +6,7 @@ Nuestro proyecto e-commerce esta pensado para el Almacén  **FRANCISCO** que qui
 
 # *Objetivo*
 
-Satisfacer las necesidades del Almacén **FRANCISCO**, aplicando metodologías agiles y afianzando los conocimientos adquiridos por el equipo sobre desarrollo FullStack durante el curso 2020.
+Satisfacer las necesidades del Almacén **FRANCISCO**, aplicando metodologías ágiles y afianzando los conocimientos adquiridos por el equipo sobre desarrollo FullStack durante el curso 2020.
 
 # Premisas y Necesidades del Almacén **FRANCISCO**
 
@@ -35,14 +35,14 @@ En el link siguiente se detallan las premisas y necesidadas del Cliente
 
 [**Daniel Cornejo**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/DanielCornejo.md "Daniel Cornejo")
 
-## Metodologia:
-El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este proyecto.
+## Metodología:
+El proyecto se ejecutará aplicando metologías Ágiles. Se adopta SCRUM para este proyecto.
 
 ![Vista](https://comunidad.iebschool.com/metodologiasagiles/files/2015/05/metodologias-agiles.jpg)
--  [___¿Que es Metodologia Agil?___](https://prezi.com/embed/qqawvvdi9as_/)
+-  [___¿Qué es Metodología Ágil?___](https://prezi.com/embed/qqawvvdi9as_/)
 
 ## Etapas del Proyecto:
-La ejecución tendra una duración de 8 Sprints:
+La ejecución tendrá una duración de 8 Sprints:
 (En los siguientes links se encuentran los accesos a los documentos del detalle de cada Sprint )
 
 1. [**Wireframes + Boceto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint1.md "Wireframes + Boceto")
