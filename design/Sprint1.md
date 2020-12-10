@@ -5,23 +5,23 @@
 
 ## Objetivos del Sprint
 
-1.Crear el repositorio del proyecto y agregar colaboradores
-2.Definir la temática del Market Place
-3.Buscar inspiración en referentes del mercado 
-4.Crear un wireframe y un boceto del sitio
+1. Crear el repositorio del proyecto y agregar colaboradores
+2. Definir la temática del Market Place
+3. Buscar inspiración en referentes del mercado
+4. Crear un wireframe y un boceto del sitio
 
 ## Resumen de entregables
-1.URL del repositorio con todos los colaboradores agregados.
-2.Archivo README.md con:
- Temática del sitio y público objetivo.
- Listado de al menos 5 referentes.
-3.Wireframe de las siguientes páginas:
- Home
- Detalle de producto
- Carrito de compras
- Formulario de registro
- Formulario de login
-4.Opcional: Boceto o diseño gráfico del sitio (logo, colores, tipografías, etc).
+1. URL del repositorio con todos los colaboradores agregados.
+2. Archivo README.md con:
+    2.1 Temática del sitio y público objetivo.
+    2.2 Listado de al menos 5 referentes.
+3. Wireframe de las siguientes páginas:
+    3.1 Home
+    3.2 Detalle de producto
+    3.3 Carrito de compras
+    3.4 Formulario de registro
+    3.5 Formulario de login
+4. Opcional: Boceto o diseño gráfico del sitio (logo, colores, tipografías).
 
 ### Repositorio del Proyecto
 
@@ -38,23 +38,23 @@ Aunque la estrategia comercial esta fuertemente orientada a la venta minorista d
 
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
-<img width="400" height="300"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Walmart.PNG">
+<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Walmart.PNG">
 
 - [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi/myaccount/login.jsp?loginFromHeader=yes&loginSuccessURL=/myaccount/loginAddress.jsp)
 Logueo y registración web.
-<img width="400" height="300"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Coto.PNG">
+<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Coto.PNG">
 
 - [___Carrefour___](https://www.carrefour.com.ar/)
 Carrito de compras
-<img width="400" height="300"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Carrefour.PNG">
+<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Carrefour.PNG">
 
 -  [___Jumbo___](https://www.jumbo.com.ar/institucional/metodos-de-entrega)
 Metodos de entrega o retiro de sucursal
-<img width="400" height="300"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Jumbo.PNG">
+<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Jumbo.PNG">
 
 -  [___Busqueda Web___](https://www.google.com.ar/)
 Formulario de registro de usuario para realizar compras
-<img width="400" height="300"  alt="Wireframe" src="https://xavizquierdo.files.wordpress.com/2013/04/jom.png?w=614">
+<img width="500" height="400"  alt="Wireframe" src="https://xavizquierdo.files.wordpress.com/2013/04/jom.png?w=614">
 
 ### Wireframe y un boceto del sitio
 
@@ -95,11 +95,11 @@ Web: Myriad pro regular , Myriad pro semubold , Myriad pro bold <br>
 ## *Logo*
 
 El logo ha sido diseñado y aprobado por los dueños del Almacén. 
-Se construyo con las tipografia:
+### Se construyo con las tipografia:
 
 *Dolce vita heavy bold , Dolce vita light*
 
-Dependiendo de la necesidad, se podrá utilizar alguno de los dos formatos aprobados 
+### Dependiendo de la necesidad, se podrá utilizar alguno de los dos formatos aprobados 
 ( cuadrado y vertical )
 
 ### Cuadrado
