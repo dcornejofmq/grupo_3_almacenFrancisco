@@ -38,42 +38,42 @@ Aunque la estrategia comercial esta fuertemente orientada a la venta minorista d
 
 - [___Walmart___](https://www.walmart.com.ar/)
 Carrusel de ofertas, búsqueda y listado de productos.
-<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Walmart.PNG">
+<img width="750" height="500"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Walmart.PNG">
 
 - [___Coto Digital___](https://www.cotodigital3.com.ar/sitios/cdigi/myaccount/login.jsp?loginFromHeader=yes&loginSuccessURL=/myaccount/loginAddress.jsp)
 Logueo y registración web.
-<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Coto.PNG">
+<img width="750" height="500"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Coto.PNG">
 
 - [___Carrefour___](https://www.carrefour.com.ar/)
 Carrito de compras
-<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Carrefour.PNG">
+<img width="750" height="500"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Carrefour.PNG">
 
 -  [___Jumbo___](https://www.jumbo.com.ar/institucional/metodos-de-entrega)
 Metodos de entrega o retiro de sucursal
-<img width="500" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Jumbo.PNG">
+<img width="750" height="500"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Jumbo.PNG">
 
 -  [___Busqueda Web___](https://www.google.com.ar/)
 Formulario de registro de usuario para realizar compras
-<img width="500" height="400"  alt="Wireframe" src="https://xavizquierdo.files.wordpress.com/2013/04/jom.png?w=614">
+<img width="750" height="500"  alt="Wireframe" src="https://xavizquierdo.files.wordpress.com/2013/04/jom.png?w=614">
 
 ### Wireframe y un boceto del sitio
 
 El sitio de Ventas del Almacén Francisco contara con las siguientes interfaces de usuario:
 
 - ### ** Home **
-<img width="700" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Home.png">
+<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Home.png">
 
 - ### ** Formulario Login **
-<img width="700" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioLogin.png">
+<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioLogin.png">
 
 - ### ** Formulario de Registro **
-<img width="700" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioRegistro.png">
+<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioRegistro.png">
 
 - ### ** Detalle de Producto **
-<img width="700" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/DetalleProducto.png">
+<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/DetalleProducto.png">
 
 - ### ** Carrito de Compras **
-<img width="700" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/CarroCompras.png">
+<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/CarroCompras.png">
 
 ## *Colores*
 
