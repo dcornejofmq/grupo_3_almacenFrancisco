@@ -14,12 +14,12 @@ En el link siguiente se detallan las premisas y necesidadas del Cliente
 
 [**El Proyecto**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Premisas.md "El Proyecto")
 
-<img width="400" height="300"  alt="eCommerce" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/ecommerce.gif">
+<img width="400" height="300"  alt="eCommerce" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/ecommerce.gif">
 
 
 ## *Equipo de Proyecto - Roles*
 
-<img width="600" height="300"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Equipo_SCRUM.png">
+<img width="600" height="300"  alt="Equipo Scrum" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Equipo_SCRUM.png">
 
 ### Product Owners (POs) / Scrum Masters (SM)
 
