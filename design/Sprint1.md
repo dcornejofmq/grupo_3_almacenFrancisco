@@ -64,16 +64,16 @@ El sitio de Ventas del Almacén Francisco contara con las siguientes interfaces 
 <img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/Home.png">
 
 - ### ** Formulario Login **
-<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioLogin.png">
+<img width="750" height="360"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioLogin.png">
 
 - ### ** Formulario de Registro **
-<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioRegistro.png">
+<img width="500" height="450"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/FormularioRegistro.png">
 
 - ### ** Detalle de Producto **
 <img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/DetalleProducto.png">
 
 - ### ** Carrito de Compras **
-<img width="750" height="400"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/CarroCompras.png">
+<img width="750" height="550"  alt="Wireframe" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Img/CarroCompras.png">
 
 ## *Colores*
 
