@@ -39,7 +39,7 @@ En el link siguiente se detallan las premisas y necesidadas del Cliente
 El proyecto se ejecutara aplicando metologias Agiles. Se adopta SCRUM para este proyecto.
 
 ![Vista](https://comunidad.iebschool.com/metodologiasagiles/files/2015/05/metodologias-agiles.jpg)
--  [___¿Que es Metodologia Agil?___](https://prezi.com/qqawvvdi9as_/metodologias-agiles/)
+-  [___¿Que es Metodologia Agil?___](https://prezi.com/embed/qqawvvdi9as_/)
 
 ## Etapas del Proyecto:
 La ejecución tendra una duración de 8 Sprints:
