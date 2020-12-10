@@ -20,21 +20,21 @@ Cornejo</span></b></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal style='text-align:justify'>Apasionado de la tecnologÌa, con
- experiencia en diseÒo, desarrollo e implementaciÛn de soluciones
-que mejoraron la productividad de negocios, mejorando la calidad de vida de los
-usuarios. Automatizando y simplificando procesos, integrando tecnologÌas y
-equipamiento de soporte a la operaciÛn de diferentes ·reas de negocios.</p>
+<p class=MsoNormal style='text-align:justify'>Apasionado de la tecnolog√≠a, con
+ experiencia en dise√±o, desarrollo e implementaci√≥n de soluciones
+que mejoraron la productividad de negocios y la calidad de vida de los
+usuarios. Automatizando y simplificando procesos, integrando tecnolog√≠as y
+equipamiento de soporte a la operaci√≥n de diferentes √°reas de negocios.</p>
 
-<p class=MsoNormal style='text-align:justify'>Poseo amplia experiencia en
+<p class=MsoNormal style='text-align:justify'>Posee amplia experiencia en
 Sistema SAP, lenguajes de desarrollo y bases de datos.</p>
 
-<p class=MsoNormal style='text-align:justify'>He diseÒado y gestionado
+<p class=MsoNormal style='text-align:justify'>Ha dise√±ado y gestionado
 soluciones y equipos de desarrollo en proyectos WEB de diferentes industrias.</p>
 
-<p class=MsoNormal style='text-align:justify'>Tengo 51 aÒos, nacÌ en Mendoza, vivo en la Ciudad de Buenos Aires - Casado y tengo dos hijos.</p>
+<p class=MsoNormal style='text-align:justify'>Tiene 51 a√±os, naci√≥ en Mendoza, vive en la Ciudad de Buenos Aires - Casado con dos hijos.</p>
 
-<p class=MsoNormal style='text-align:justify'>En 2020 voy a incrementar mis conocimientos tÈcnicos en temas especÌficos de desarrollo WEB disfrutando del curso de FullStack en DigitalHouse; compartiendo el desafio de aprender en el equipo 3 junto a Cristian Stefani y David Iniguez.</p>
+<p class=MsoNormal style='text-align:justify'>En 2020 esta adquiriendo conocimientos t√©cnicos en temas espec√≠ficos de desarrollo WEB disfrutando del curso de FullStack en DigitalHouse; compartiendo el desaf√≠o de aprender en el equipo 3 junto a Cristian Stefani y David I√±iguez.</p>
 
 </div>
 
