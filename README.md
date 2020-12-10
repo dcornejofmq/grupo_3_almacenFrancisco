@@ -51,5 +51,5 @@ La ejecución tendra una duración de 8 Sprints:
 4. [**JSON + métodos HTTP**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint4.md "JSON + métodos HTTP")
 5. [**Middleware + Auth**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint5.md "Middleware + Auth")
 6. [**Bases de datos**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint6.md "Bases de datos")
-7. [**Validaciones**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/design/Sprint7.md "Validaciones")
+7. [**Validaciones**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint7.md "Validaciones")
 8. [**APIs + React**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint8.md "APIs + React")
