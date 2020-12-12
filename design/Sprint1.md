@@ -103,8 +103,8 @@ El logo ha sido diseñado y aprobado por los dueños del Almacén.
 
 ### Cuadrado
 
-<img width="150" height="150"  alt="Logo" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Logo_Almacen_Francisco_100x100.jpg">
+<img width="150" height="150"  alt="Logo" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/Img/Logo_Almacen_Francisco_100x100.jpg">
 
 ### Vertical
 
-<img width="130" height="174"  alt="Logo" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/Public/Img/Logo_Almacen_Francisco_100x100.jpg">
+<img width="130" height="174"  alt="Logo" src="https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/Img/Logo_Almacen_Francisco_100x100.jpg">

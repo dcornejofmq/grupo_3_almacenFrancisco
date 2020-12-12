@@ -4,9 +4,6 @@
 <head>
 <!-- Cargo el link al documento CSS -  -->
 
-<link rel="stylesheet" href="Public/css/DanielCornejo.css">
-<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-
 </head>
 
 <body lang=ES-AR>
