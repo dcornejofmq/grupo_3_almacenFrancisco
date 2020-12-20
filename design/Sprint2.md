@@ -26,8 +26,8 @@ Crear la estructura de archivos utilizando Node.js+Express
 	- Tablero de trabajo Kanban 
 	- [**Tablero Trello**](https://trello.com/b/1PzVClHh/proyecto-almac%C3%A9n-francisco-grupo-3 "Tablero Trello")
 3. Aplicación Node.js+Express con:
-	- [**Home - (Index.html)**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/index.html "Index.html")	
-	- Detalle del producto (productDetail.html)
-	- Carrito de compras (productCart.html)
-	- Formulario de registro (register.html)
-	- Formulario de login (login.html)
+	- [**Home - (Index.html)**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/index.html)	
+	- [**Detalle del producto - (productDetail.html)**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/productDetail.html)	
+	- [**Carrito de compras - (productCart.html)**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/productCart.html)	
+	- [**Formulario de registro - (register.html)**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/register.html)	
+	- [**Formulario de login - (login.html)**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/app/public/login.html)
