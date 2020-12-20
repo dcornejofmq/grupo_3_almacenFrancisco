@@ -55,5 +55,6 @@ La ejecución tendrá una duración de 8 Sprints:
 8. [**APIs + React**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint8.md "APIs + React")
 
 ## Tablero de trabajo Kanban 
-	- https://trello.com/b/1PzVClHh/proyecto-almac%C3%A9n-francisco-grupo-3
+- [**Tablero Trello**](https://trello.com/b/1PzVClHh/proyecto-almac%C3%A9n-francisco-grupo-3 "Tablero Trello")
+	
 
