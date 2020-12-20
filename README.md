@@ -53,3 +53,7 @@ La ejecución tendrá una duración de 8 Sprints:
 6. [**Bases de datos**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint6.md "Bases de datos")
 7. [**Validaciones**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint7.md "Validaciones")
 8. [**APIs + React**](https://github.com/dcornejofmq/grupo_3_almacenFrancisco/blob/master/design/Sprint8.md "APIs + React")
+
+## Tablero de trabajo Kanban 
+	- https://trello.com/b/1PzVClHh/proyecto-almac%C3%A9n-francisco-grupo-3
+
