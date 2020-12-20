@@ -24,7 +24,7 @@ Crear la estructura de archivos utilizando Node.js+Express
 	- Crear un archivo retro.md en el repositorio y anotar las principales conclusiones de la retro del primer sprint.
 2. Enlace al tablero de trabajo en el archivo README.md.
 	- Tablero de trabajo Kanban 
-	- https://trello.com/b/1PzVClHh/proyecto-almac%C3%A9n-francisco-grupo-3
+	- [**Tablero Trello**](https://trello.com/b/1PzVClHh/proyecto-almac%C3%A9n-francisco-grupo-3 "Tablero Trello")
 3. Aplicación Node.js+Express con:
 	- Home (index.html)
 	- Detalle del producto (productDetail.html)
