@@ -1,259 +1,259 @@
-/**
- * Este este es un archivo de Hoja de estilo en cascada CSS
- * @CSS Cascading Style Sheets
- * @Año 2020
- * @link https://github.com/dcornejofmq/grupo_3_almacenFrancisco
- * @charset "UTF-8";
- */
-
-
-/*  el * al inicio de la siguiente linea indica que es el selector universal
-"Selecto Universal" --> lo que coloquemos aqui se aplica a todo el documento html */
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* Bordered form */
-form {
-  border: 3px solid #f1f1f1;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
+*{
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(219, 219, 219) ;
+ }
+ .main-header{
+    background-color: rgb(9, 72, 153) ;
+    padding: 20px;
+ }
+ .hamburguer-button{
+   background-color:rgb(235, 114, 5);
+   color: rgb(219, 219, 219);
+   display: block;
+   max-width: 50px;
+   padding: 15px 0;
+   border-radius: 8px;
+   text-align: center;
+   font-size: 18px;
+   margin: auto;
+ }
+ .logo{
+   width: 200px;
+   margin-left: 25%;
+ }
+ 
+ 
+ main{
+  width: 90%;
+  margin: 0 auto;
 }
-
-/* Add a hover effect for buttons */
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra style for the cancel button (red) */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
-
-/* Center the avatar image inside this container */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-}
-
-/* Avatar image */
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
-}
-
-/* The "Forgot password" text */
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
-}
-
-/* Add padding to containers */
-.container {
-  padding: 16px;
-}
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Overwrite default styles of hr */
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for the submit/register button */
-.registerbtn {
-  background-color: #4CAF50;
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background:rgb(235, 114, 5);
   color: white;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: none;
+  font-size: 17px;
+  border: 1px solid rgb(219, 219, 219);
+  border-left: none; /* Prevent double borders */
   cursor: pointer;
+}
+
+form.example button:hover {
+  background: rgb(235, 114, 5);
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+main section h3 {
+  margin: 20px 0px;
+}
+h3{
+  color: rgb(87, 127 , 175);
+  font-size: 24px;
+}
+main section article{
+  
+  margin: 10px 0px;
+  
+}
+main section article img{
+  display: block;
   width: 100%;
-  opacity: 0.9;
 }
-
-.registerbtn:hover {
-  opacity:1;
+.section{
+  display: block;
 }
-
-/* Add a blue text color to links */
-a {
-  color: dodgerblue;
+.tarjetas{
+  display: flex;
+  font-size: 300%;
+  justify-content: space-between;
+  align-items: center;
 }
-
-/* Set a grey background color and center the text of the "sign in" section */
-.signin {
-  background-color: #f1f1f1;
+.redes{
+   display: flex;
+  font-size: 200%;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner{
+  display: none;
+}
+h4{
   text-align: center;
+  color: rgb(9, 72, 153);
 }
+.image{
+  display: none;
+}
+ @media (min-width: 768px){
+  .logo{
+    margin-left: 0px;
+  }
+.main-header-top-bar{
+  
+  display: flex;
+  justify-content: space-between;
+}
+  .copy-header{
+    max-width: 350px;
+    text-align: right;
+      }
+      .hamburguer-button{
+        display: none;
+      }
+      .main-navbar{
+        display: flex;
+        justify-content: space-between;
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+      }
+      .main-navbar ul {
+        display: flex;
+      }
+      .main-navbar li {
+        margin: 0 5px;
+        font-size: 18px;
+        
+      }
+      .section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+               
+      }
+      
+      h3{
+        display: none;
+      }
+      .article{
+        flex-grow: 1;
+        padding: 10px;
+      }
+      .search{
+        align-self: center;
+      }
+      .btn {
+        background-color:rgb(235, 114, 5); /* Blue background */
+        border: none; /* Remove borders */
+        color:rgb(219, 219, 219); /* White text */
+        padding: 12px 16px; /* Some padding */
+        font-size: 16px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      
+      /* Darker background on mouse-over */
+      .btn:hover {
+        background-color: RoyalBlue;
+      }
+      .banner{
+        display: flex;
+        visibility: visible;
+        align-items: center;
+      }
+     .tarjetas{
+      display: none;
+     }
+     .redes{
+       font-size: 300%;
+       color: rgb(235, 114, 5);
+     }
+ }
+ 
+
+ @media (min-width: 1200px){
+   .logo{
+     width: 75px;     
+    margin-left: 0px;
+    
+   }
+.main-header-top-bar. .main-navbar{
+  max-width: 1200px;
   margin: auto;
+}
+.main-header-top-bar{
+  align-items: center;
+  
+}
+.copy-header{
+  max-width: none;
+  font-weight: 400;
+  font-size: 22;
+  margin: 0;
+  
+    }
+  .main-navbar{
+    margin-top: 40px;
+    }
+.main-navbar li {
+  margin: 0 10px;
+}
+.main-navbar a {
+  font-size: 19px;
+
+}
+.bo{
+  flex-wrap: 1;
+}
+
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+         
+}
+.article{
+  flex-grow: 1;
+  padding: 10px;
+}
+
+h3{
+  display: none;
+}
+.redes{
+  color: rgb(87, 127 , 175);
+  display: flex;
+  align-items: flex-start;
+  font-size: 125%;
+  justify-content: flex-end;
+  -webkit-user-modify: read-write-plaintext-only;
+  margin-right: 35px;
+}
+.footer{
+  background-color: rgb(235, 114, 5);
+  height: 80px;
+  
+}
+.image{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  margin-inline-end: auto;
+  margin-left: 20px;
+}
+.copyright{
   text-align: center;
-  font-family: arial;
+  color: rgb(9, 72, 153);
 }
 
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
+ }
