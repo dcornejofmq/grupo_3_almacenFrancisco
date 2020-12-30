@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0px;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(87, 127, 175) ;
+   }
+  .main-header{
+    background-color: rgb(9, 72, 153) ;
+    padding: 20px;
+    display: flex;
+ }
+
+ .logo{
+    width: 100px;
+    
+  }
+  .text{
+      color:rgb(219, 219, 219) ;
+      padding-left: 150px;
+      padding-top: 40px;
+  }
+  main{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .container{
+      display: block;
+      background-color:rgb(87, 127, 175);
+      padding-bottom: 20px;
+  }
+  main section h4 {
+    
+    padding: 15px;
+}
+  h4{
+    font-size: 24px;
+    color: rgb(219, 219, 219);
+    }
+
+  .login{        
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    border: rgb(219, 219, 219) 50px solid;
+    }
+ .user{
+  display: flex;
+  flex-direction: column;
+ }
+ h5{
+   text-align: center;
+   color: rgb(219, 219, 219);
+ }
+ @media (min-width: 768px){
+.login{
+  display: flex;
+  justify-content: center;
+}
+h4{
+  text-align: center;
+}
+ }
+ @media (min-width: 1200px){
+  .text{
+    padding-left: 80%;
+  }
+  
+  .container{
+    display: flex;
+  }
+  .footer{
+    margin-top: 25%; 
+  }
+ }
