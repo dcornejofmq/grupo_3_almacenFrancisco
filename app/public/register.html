@@ -3,35 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Registrarse</title>
 </head>
 <body>
+  <header class="main-header">
+    <div>
+      <button class="btn-borde"><i class="fas fa-home"></i>Home</button>
+    </div>
+    <div>
+      <button class="btn-borde"><i class="fas fa-shopping-cart"></i>Carrito de Compras</button>
+    </div>
+    <div class="login">
+      <button class="btn-borde"><i class="fas fa-sign-in-alt"></i>Ingresar</button>
+    </div>
+  </header>
+    <main>
+      <article class="container">
+        <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
+        <input type="text" id="fname" name="firstname" placeholder="Juan Perez">              
+      </article>
+      <article class="container">
+      <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="juan.perez@example.com">  
+          </article>
+          <article class="container">
+            <label for="adr"><i class="fas fa-id-card"></i> DNI/Cedula</label>
+            <input type="text" id="dni" name="documento" placeholder="11.111.111">
+            
+          </article>
+          <article class="container">
+            <label for="adr"><i class="fas fa-map-marked-alt"></i></i> Dirección</label>
+            <input type="text" id="adr" name="address" placeholder="Av Directorio 1111">
+          </article>
+          <article class="container">
+            <div class="mainselection">
+            <select name="barrio" id="input7">
+              <option> Seleccione Barrio</option>
+              <option value="Agronomia">Agronomia</option>
+              <option value="Almagro">Almagro</option>
+              <option value="Balvanera">Balvanera</option>
+              <option value="Barracas">Barracas</option>  
+              <option value="Chacarita">Chacarita</option>
+              <option value="Constitución">Constitución</option>
+              <option value="Flores">Flores</option>
+              <option value="La Paternal">La Paternal</option> 
+              <option value="Puerto Madero">Puerto Madero</option>
+              <option value="Recoleta">Recoleta</option>
+              <option value="San Telmo">San Telmo</option>
+              <option value="Villa Crespo">Villa Crespo</option>
+              <option value="Villa del Parque">Villa del Parque</option>                                             
+            </select>
+            </div>
+          </article>
+          <article class="container">
+            <label for="adr"><i class="fas fa-city"></i> Tipo Domicilio</label>
+            <input type="radio" name="tipo" value="1">Casa
+            <input type="radio" name="tipo" value="1">Edificio
+            <input type="radio" name="tipo" value="1">PH
+          </article>
+          <article class="container">
+            <label>Dejanos tu comentario</label>
+        <textarea name="feedback"></textarea>
+          </article>
+          <article class="submit">
+            <button class="btn-borde" type="submit">Enviar</button>
+          </article>
+    </main>
     
-    <form action="/register_url/" method="post">
-        <div class="container">
-          <h1>Register</h1>
-          <p>Please fill in this form to create an account.</p>
-          <hr>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" id="email" required>
-      
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-      
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-          <hr>
-      
-          <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-          <button type="submit" class="registerbtn">Register</button>
-        </div>
-      
-        <div class="container signin">
-          <p>Already have an account? <a href="#">Sign in</a>.</p>
-        </div>
-      </form>
-
+<footer>
+  <h5>©2017 Almacen Francisco S.R.L - Política de privacidad - Terminos y condiciones
+    Dirección General de Defensa y Protección al Consumidor.</h5>
+</footer>
 </body>
 </html>
