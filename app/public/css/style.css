@@ -109,6 +109,8 @@ h4{
 .image{
   display: none;
 }
+
+
  @media (min-width: 768px){
   .logo{
     margin-left: 0px;
@@ -145,9 +147,7 @@ h4{
                
       }
       
-      h3{
-        display: none;
-      }
+      
       .article{
         flex-grow: 1;
         padding: 10px;
@@ -180,6 +180,10 @@ h4{
        font-size: 300%;
        color: rgb(235, 114, 5);
      }
+     .slidebar{
+      padding: 50px;
+      width: 600px;
+    }
  }
  
 
@@ -230,9 +234,7 @@ h4{
   padding: 10px;
 }
 
-h3{
-  display: none;
-}
+
 .redes{
   color: rgb(87, 127 , 175);
   display: flex;
@@ -258,5 +260,10 @@ h3{
   text-align: center;
   color: rgb(9, 72, 153);
 }
-
+.slidebar{
+  padding: 50px;
+  width: 600px;
+  margin-left: 25%;
+  display: contents;
+}
  }

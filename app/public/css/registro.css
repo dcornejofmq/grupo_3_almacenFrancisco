@@ -59,6 +59,8 @@ h5{
   background-color:rgb(9, 72, 153
   ) ;
 }
+
+}
 @media (min-width: 768px){
   .cart{
     margin-left: 50px;
