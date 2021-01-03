@@ -3,16 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/productCart.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="card">
-        <img src="Img/jeans3.jpg" alt="Denim Jeans" style="width:100%">
-        <h1>Tailored Jeans</h1>
-        <p class="price">$19.99</p>
-        <p>Some text about the jeans..</p>
-        <p><button>Add to Cart</button></p>
-      </div>
+    <header class="main-header">
+        <div>
+          <form action="/index.html">     
+          <button class="btn-borde"><i class="fas fa-home"></i>Home</button>
+        </form>  
+        </div>
+        <div class="dirCart">
+          <form action="/productCart.html">
+          <button class="btn-borde"><i class="fas fa-shopping-cart"></i>Carrito de Compras</button>
+        </form>
+        </div>
+        <div class="login">
+          <form action="/login.html">
+          <button class="btn-borde"><i class="fas fa-sign-in-alt"></i>Ingresar</button>
+        </form>
+        </div>
+      </header>
+    <main>
+        <h4>Productos</h4>
+        <section class="cart">
+            <article class="product">
+                <div class="item-1">
+                <img src="Img/arroz.jpg" alt="arroz" width="100px">
+                </div>
+            
+            <div class="description">
+            <p>Arroz Gallo</p>
+            </div>
+                <div class="item-2">
+                    <p>Cantidad</p>
+                    <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+                </div>
+                <div class="precio">
+                    <p>Precio</p>
+                    <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+
+                </div>
+            </article>
+            
+            <article class="product">
+                <div class="item-1">
+                    <img src="Img/aceite.webp" alt="arroz" width="100px" height="95px">
+                    </div>
+                </div>
+                <div class="description">
+                <p>Aceite Cañuelas</p>
+                </div>
+                    <div class="item-2">
+                        <p>Cantidad</p>
+                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+                    </div>
+                    <div class="precio">
+                        <p>Precio</p>
+                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+
+                    </div>
+            </article>
+            <article class="product">
+                <div class="item-1">
+                    <img src="Img/polenta.jpg" alt="arroz" width="100px" height="95px">
+                    </div>
+                </div>
+                <div class="description">
+                <p>Polenta Presto Pronta</p>
+                </div>
+                    <div class="item-2">
+                        <p>Cantidad</p>
+                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+                    </div>
+                    <div class="precio">
+                        <p>Precio</p>
+                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+
+                    </div>
+            </article>
+            <article class="product">
+                <div class="item-1">
+                    <img src="Img/fideo.jpg" alt="arroz" width="100px">
+                    </div>
+                    <div class="description">
+                    <p>Fideos Matarazzo</p>
+                    </div>
+                    <div class="item-2">
+                        <p>Cantidad</p>
+                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+                    </div>
+                    <div class="precio">
+                        <p>Precio</p>
+                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+
+                    </div>
+            </article>
+            <div class="total">
+                <h3>Importe Total</h3>
+                <textarea name="cantidad" id="" cols="8" rows="1"></textarea>
+            </div>
+            <article class="submit">
+                <button class="btn-borde" type="submit">Finalizar Compra</button>
+              </article>
+        </section>
+    </main>
 </body>
 </html>

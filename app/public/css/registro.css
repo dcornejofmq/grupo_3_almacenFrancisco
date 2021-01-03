@@ -78,4 +78,7 @@ main{
   background-color: rgb(219, 219, 219);
   border: rgb(219, 219, 219);
 }
+.cart{
+  margin-left: 50px;
+}
 }
