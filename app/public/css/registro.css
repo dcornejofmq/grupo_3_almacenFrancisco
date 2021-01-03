@@ -59,3 +59,21 @@ h5{
   background-color:rgb(9, 72, 153
   ) ;
 }
+@media (min-width: 768px){
+  .cart{
+    margin-left: 50px;
+  }
+}
+@media (min-width: 1200px){
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(219, 219, 219);
+  padding: 25px;
+}
+.container{
+  background-color: rgb(219, 219, 219);
+  border: rgb(219, 219, 219);
+}
+}
