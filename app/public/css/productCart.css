@@ -86,9 +86,18 @@ h3{
       }
       .total{
 
-    text-align: left;
+    text-align: right;
       }
-      h3{
-
-      }
+     
+@media (min-width: 1200px){
+.product{
+    margin: 15% 5%;   
+}
+.item-2{
+    margin-left: 60%;
+}
+.total{
+    text-align: right;
+    margin-right: 10%;
+}
 }
