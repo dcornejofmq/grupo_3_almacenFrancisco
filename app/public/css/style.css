@@ -40,6 +40,7 @@ form.example input[type=text] {
   float: left;
   width: 80%;
   background: #f1f1f1;
+  
 }
 
 /* Style the submit button */
@@ -154,19 +155,22 @@ h4{
       }
       .search{
         align-self: center;
+        border: rgb(235, 114, 5);
+        
       }
       .btn {
         background-color:rgb(235, 114, 5); /* Blue background */
         border: none; /* Remove borders */
         color:rgb(219, 219, 219); /* White text */
         padding: 12px 16px; /* Some padding */
-        font-size: 16px; /* Set a font size */
+        font-size: 14px; /* Set a font size */
         cursor: pointer; /* Mouse pointer on hover */
+        border-radius: 10%;
       }
       
       /* Darker background on mouse-over */
       .btn:hover {
-        background-color: RoyalBlue;
+        background-color:rgb(87, 127 , 175);
       }
       .banner{
         display: flex;

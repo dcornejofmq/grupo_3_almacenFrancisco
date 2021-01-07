@@ -59,7 +59,9 @@ h5{
   background-color:rgb(9, 72, 153
   ) ;
 }
-
+section{
+  width: 100%;
+}
 }
 @media (min-width: 768px){
   .cart{
