@@ -30,28 +30,28 @@
       <form action="">
       <article class="container">
         <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
-        <input type="text" id="fname" name="firstname" placeholder="Juan Perez">              
+        <input type="text" id="fname" name="firstname" placeholder="Juan Perez" required>              
       </article>
       <article class="container">
       <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="juan.perez@example.com">  
+            <input type="text" id="email" name="email" placeholder="juan.perez@example.com" required>  
           </article>
           <article class="container">
             <label for="adr"><i class="fas fa-id-card"></i> DNI/Cedula</label>
-            <input type="text" id="dni" name="documento" placeholder="11.111.111">
+            <input type="text" id="dni" name="documento" placeholder="11.111.111" required>
             
           </article>
           <article class="container">
             <label for="adr"><i class="far fa-calendar-alt"></i> Fecha Nacimiento</label>
-            <input type="date" id="date" name="date">
+            <input type="date" id="date" name="date" required>
           </article>
           <article class="container">
             <label for="adr"><i class="fas fa-map-marked-alt"></i></i> Dirección</label>
-            <input type="text" id="adr" name="address" placeholder="Av Directorio 1111">
+            <input type="text" id="adr" name="address" placeholder="Av Directorio 1111" required>
           </article>
           <article class="container">
             <div class="mainselection">
-            <select name="barrio" id="input7">
+            <select name="barrio" id="input7" required>
               <option> Seleccione Barrio</option>
               <option value="Agronomia">Agronomia</option>
               <option value="Almagro">Almagro</option>
@@ -71,9 +71,9 @@
           </article>
           <article class="container">
             <label for="adr"><i class="fas fa-city"></i> Tipo Domicilio</label>
-            <input type="radio" name="tipo" value="1">Casa
-            <input type="radio" name="tipo" value="2">Edificio
-            <input type="radio" name="tipo" value="3">PH
+            <input type="radio" name="tipo" value="1" required>Casa
+            <input type="radio" name="tipo" value="2" required>Edificio
+            <input type="radio" name="tipo" value="3" required>PH
           </article>
           <article class="container">
             <label>Dejanos tu comentario</label>
