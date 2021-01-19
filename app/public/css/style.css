@@ -193,9 +193,10 @@ footer nav {
   flex-wrap: wrap;
   align-items: center;
   font-weight: bolder;
+  background-color: rgb(9, 72, 153);
 }
 footer nav div{
-color: rgb(9, 72, 153);
+  color: rgb(219, 219, 219);
 margin: auto;
 }
 .icono2{
