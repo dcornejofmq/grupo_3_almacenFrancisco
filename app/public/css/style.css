@@ -12,9 +12,10 @@ body{
 }
 
 .menu{
-  padding: 15px;
+  padding: 5px;
   color: rgb(219, 219, 219);
   font-size: x-large;
+  text-align: center;
 }
 header div img{
    width: 35px;
