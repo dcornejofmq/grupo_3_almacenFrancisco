@@ -241,10 +241,12 @@ h6{
 }
 .icono{
   padding: 0px;
+  text-align: center;
 }
 .icono2{
   padding: 0px;
   margin-right: auto;
+  text-align: center;
 }
 main section h3{
   width: 100%;
