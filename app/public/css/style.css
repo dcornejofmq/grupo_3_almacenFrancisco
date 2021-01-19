@@ -247,4 +247,7 @@ main section h3{
 main section article{
   width: 22%;
 }
+footer article{
+  text-align: center;
+}
 }
