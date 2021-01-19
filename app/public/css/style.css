@@ -16,6 +16,7 @@ body{
   color: rgb(219, 219, 219);
   font-size: x-large;
   text-align: center;
+  padding: 12px;
 }
 header div img{
    width: 35px;
@@ -60,10 +61,10 @@ form.example button {
   font-size: 25px;
   color: rgb(219, 219, 219);
   padding: 12px; 
-  text-align: center;
+  text-align: end;
 }
-main{
-    
+a {
+  color: rgb(219, 219, 219);
 }
 .carrusel{
   padding: 0px 15px;
@@ -202,6 +203,7 @@ margin: auto;
 }
 .icono2{
 display: none;
+
 }
 footer article{
 display: none;
@@ -215,6 +217,7 @@ font-size: 25px;
   color: rgb(219, 219, 219);
   padding: 12px; 
   display: block;
+  text-align: end;
 }
 footer article{
 display: block;
