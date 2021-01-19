@@ -51,6 +51,7 @@ form.example button {
   margin-top: 6px;
   border-bottom-right-radius: 15px;
   border-top-right-radius: 15px;
+  text-align: end;
 }
 .search{
   width: 65vw;
@@ -251,4 +252,5 @@ main section article{
 footer article{
   text-align: center;
 }
+
 }
