@@ -3,96 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <title>Registrarse</title>
 </head>
 <body>
-  <header class="main-header">
-    <div>
-      <form action="/index.html">     
-      <button class="btn-borde"><i class="fas fa-home"></i>Home</button>
-    </form>  
-    </div>
-    <div class="cart">
-      <form action="/productCart.html">
-      <button class="btn-borde"><i class="fas fa-shopping-cart"></i>Carrito de Compras</button>
-    </form>
-    </div>
-    <div class="login">
-      <form action="/login.html">
-      <button class="btn-borde"><i class="fas fa-sign-in-alt"></i>Ingresar</button>
-    </form>
-    </div>
-  </header>
-    <main>
-      <section>
-      <form action="">
-      <article class="container">
-        <label for="fname"><i class="fa fa-user"></i> Nombre Completo</label>
-        <input type="text" id="fname" name="firstname" placeholder="Juan Perez" required>              
-      </article>
-      <article class="container">
-      <label for="email"><i class="fa fa-envelope"></i> Email</label>
-            <input type="text" id="email" name="email" placeholder="juan.perez@example.com" required>  
-          </article>
-          <article class="container">
-            <label for="adr"><i class="fas fa-id-card"></i> DNI/Cedula</label>
-            <input type="text" id="dni" name="documento" placeholder="11.111.111" required>
-            
-          </article>
-          <article class="container">
-            <label for="adr"><i class="far fa-calendar-alt"></i> Fecha Nacimiento</label>
-            <input type="date" id="date" name="date" required>
-          </article>
-          <article class="container">
-            <label for="adr"><i class="fas fa-map-marked-alt"></i></i> Dirección</label>
-            <input type="text" id="adr" name="address" placeholder="Av Directorio 1111" required>
-          </article>
-          <article class="container">
-            <div class="mainselection">
-            <select name="barrio" id="input7" required>
-              <option> Seleccione Barrio</option>
-              <option value="Agronomia">Agronomia</option>
-              <option value="Almagro">Almagro</option>
-              <option value="Balvanera">Balvanera</option>
-              <option value="Barracas">Barracas</option>  
-              <option value="Chacarita">Chacarita</option>
-              <option value="Constitución">Constitución</option>
-              <option value="Flores">Flores</option>
-              <option value="La Paternal">La Paternal</option> 
-              <option value="Puerto Madero">Puerto Madero</option>
-              <option value="Recoleta">Recoleta</option>
-              <option value="San Telmo">San Telmo</option>
-              <option value="Villa Crespo">Villa Crespo</option>
-              <option value="Villa del Parque">Villa del Parque</option>                                             
-            </select>
-            </div>
-          </article>
-          <article class="container">
-            <label for="adr"><i class="fas fa-city"></i> Tipo Domicilio</label>
-            <input type="radio" name="tipo" value="1" required>Casa
-            <input type="radio" name="tipo" value="2" required>Edificio
-            <input type="radio" name="tipo" value="3" required>PH
-          </article>
-          <article class="container">
-            <label><i class="fas fa-key"></i> Contraseña</label>        
-            <input type="password" name="password" minlength="6" required></p>
-            </article>
-          <article class="container">
-            <label>Dejanos tu comentario</label>
-        <textarea name="feedback"></textarea>
-          </article>
-          <article class="submit">
-            <button class="btn-borde" type="submit">Enviar</button>
-          </article>
-        </form>
-      </section>
-    </main>
+  
+   
+    <section>
+      <article>
+        
     
-<footer>
-  <h5>©2017 Almacen Francisco S.R.L - Política de privacidad - Terminos y condiciones
-    Dirección General de Defensa y Protección al Consumidor.</h5>
-</footer>
+        <form action="" class="cont-form" method = "post">
+          <h1 class="form-titulo">Registrarse <img src="Img/Logo_Almacen_Francisco_100x100.jpg" alt=""></h1>
+          <input type="text" class="form-input ancho48 separacion20" placeholder = "Nombres" required>
+          <input type="text" class="form-input ancho48 separacion20" placeholder = "Apellidos" required>
+          <input type="email" class="form-input ancho95" placeholder = "Correo" required>  
+          <input type="text" class="form-input ancho48" placeholder = "Nombre de Usuario" required>
+          <input type="password" class="form-input ancho48" placeholder = "Contraseña" required>
+          <input type="text" class="form-input ancho95" placeholder = "Teléfono" required>
+          <input type="text" class="form-input ancho48" id="dni" name="documento" placeholder="DNI" required>
+          <input type="date" class="form-input ancho48" id="date" name="date" required>
+          <input type="text" class="form-input ancho95" id="adr" name="address" placeholder="Direccion" required>
+          <select name="barrio" class="form-input ancho95"  id="input7" required>
+            <option> Seleccione Barrio</option>
+            <option value="Agronomia">Agronomia</option>
+            <option value="Almagro">Almagro</option>
+            <option value="Balvanera">Balvanera</option>
+            <option value="Barracas">Barracas</option>  
+            <option value="Chacarita">Chacarita</option>
+            <option value="Constitución">Constitución</option>
+            <option value="Flores">Flores</option>
+            <option value="La Paternal">La Paternal</option> 
+            <option value="Puerto Madero">Puerto Madero</option>
+            <option value="Recoleta">Recoleta</option>
+            <option value="San Telmo">San Telmo</option>
+            <option value="Villa Crespo">Villa Crespo</option>
+            <option value="Villa del Parque">Villa del Parque</option>                                             
+          </select>
+    
+          <input type="submit" value = "Registrar" class="form-submit">
+          <p>Si ya tienes un usuario y contraseña   <a href="/login.html">Ingresa aquí</a></p>
+        </form>
+      </article>
+    </section>
+    
+    
+    
+
 </body>
 </html>
