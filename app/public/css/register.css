@@ -19,8 +19,8 @@ body {
   margin-top: 15px;
   font-size: 2em;
 }
-h1 img{
-    width: 10%;
+h1 a img{
+    width: 20%;
 }
 
 .cont-form {
@@ -39,7 +39,7 @@ h1 img{
 .form-titulo {
   padding: 20px 10px;
   width: 100%;
-  text-align: center;
+  text-align: end;
   vertical-align: center;
   margin: auto;
   background-color: rgb(9, 72, 153);
