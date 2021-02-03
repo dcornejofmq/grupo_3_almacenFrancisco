@@ -13,33 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
-    <header class="top-header">
-      <div class="menu">
-        <i class="fas fa-bars"></i>
-        <h6>Menu</h6>
-      </div>
-      <div>
-        <img src="/Img/Logo_Almacen_Francisco_500x500.jpg" class="logo">
-      </div>
-      <div class="search">
-        <form class="example" method="GET" action="action_page.php">
-          <input type="text" placeholder="Que estas buscando.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-      </div>
-      <div class="icono">
-        <a href="/login"><i class="fas fa-sign-in-alt"></i></a>
-        <h6>Ingresa</h6>
-      </div>
-      <div class="icono">
-        <a href="/register"><i class="far fa-list-alt"></i></a>
-        <h6>Registrate</h6>
-      </div>
-      <div class="icono2">
-        <a href="/productCart.html"><i class="fas fa-shopping-cart"></i></a>
-        <h6>Carrito</h6>
-      </div>
-    </header>    
+    <%- include('./partials/header.ejs') %>
     <main>
       <section class="carrusel">
         <h3>PROMOCIONES DE LA SEMANA</h3>
@@ -132,27 +106,8 @@ function showSlides() {
         <img src="Img/envios.png" alt="envios">
       </div>
       </section>
-    </main>      
-     <footer>
-        <div>
-          <img src="Img/pagos.jpg" alt="">
-        </div>
-        <nav>
-          <div>
-          <p>Seguinos en nuestras redes</p>
-        </div>
-        <div>
-          <i class="fab fa-instagram"><a href="https://www.instagram.com/"></a></i>
-        
-          <i class="fab fa-facebook-square"><a href="https://www.facebook.com"></a> </i>
-        
-          <i class="fab fa-youtube"><a href="https://www.youtube.com/"></a></i>
-        </div>
-        </nav>
-        <article class="copyright">
-          <p>©2017 Almacen Francisco S.R.L - Política de privacidad - Terminos y condiciones
-            Dirección General de Defensa y Protección al Consumidor.</p>
-        </article>
-     </footer>
+    </main>
+         
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>
