@@ -17,6 +17,9 @@ const indexController = {
      },
      productCart: function(req, res){
          return res.render('productCart')
+     },
+     createProduct: function(req, res) {
+        return res.render('createProduct')
      }
     
 }

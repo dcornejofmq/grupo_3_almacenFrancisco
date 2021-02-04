@@ -35,7 +35,7 @@ app.use('/login', indexRouter);
 app.use('/register', indexRouter);
 app.use('/productDetail', indexRouter);
 app.use('/productCart', indexRouter);
-
+app.use('/createProduct', indexRouter);
 
 
 

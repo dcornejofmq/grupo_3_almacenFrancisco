@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css/createProduct.css">
+    <%- include('./partials/head.ejs') %> 
+<body>
+    <%- include('./partials/header.ejs') %>
+        <main class="formProduct">
+            
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Nombre de producto">
+                <input type="text" name="description" id="description" placeholder="Descripcion">
+                
+                <select type="text" name="category" id="category" >
+                    <option>Seleccione Categoria</option>
+                    <option value="despensa">Despensa</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="mascotas">Mascotas</option>
+                    <option value="bebes">Bebes</option>
+                    <option value="cuiper">Cuidado Personal</option>
+                    <option value="limpieza">Limpieza</option>
+
+                <input type="text" name="" class="dataProduct" placeholder="">
+                <input type="text" name="price" id="price" placeholder="Precio">
+                <label for="photo">Foto del Producto</label>
+                <input type="file"  accept="image/*" name="image" id="image">  
+
+                    <button class="btn" type="submit">Enviar Producto</button>
+
+
+
+            </form>
+           
+        </main>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>

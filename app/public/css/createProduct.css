@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+ .formProduct{
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    width: 75%;
+    font-weight: bold;
+}
+.login input, .formProduct input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: 0px;
+    transition-duration: 0.4s;
+}
+.btn{
+    font-size: 15px;    
+    font-weight: bold;
+    color: white;
+    background: rgb(9, 72, 153);
+    border: 0px;
+    width: 80px;    
+    height: 40px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(87, 127, 175);
+   
+
+}
