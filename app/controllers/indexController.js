@@ -1,8 +1,10 @@
 const indexController = {
+
     index: function(req, res){
        
         return res.render('index');
-    },
+    }
+    /*
     login: function(req, res){        
         return res.render('login');
     },
@@ -21,7 +23,7 @@ const indexController = {
      createProduct: function(req, res) {
         return res.render('createProduct')
      }
-    
+    */
 }
 
 
