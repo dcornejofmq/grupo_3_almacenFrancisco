@@ -28,7 +28,12 @@ app.use('/register', usersRouter);
 app.use('/productDetail', indexRouter);
 app.use('/productCart', indexRouter);
 app.use('/createProduct', indexRouter);
+<<<<<<< HEAD
+app.use('/productList', indexRouter);
+
+=======
 */
+>>>>>>> 12f5b407792de3455f43a46c21d23fd79f078188
 
 // catch 404 and forward to error handler
 
