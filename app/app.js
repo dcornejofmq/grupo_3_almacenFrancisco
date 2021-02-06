@@ -21,11 +21,11 @@ const usersRouter    = require('./routes/users');
 const productsRouter = require('./routes/products');
 
 app.use('/', indexRouter);
-app.use('/', usersRouter);
-app.use('/', productsRouter);
+app.use('/users', usersRouter);
+app.use('/products', productsRouter);
 
 /*
-app.use('/register', usersRouter);
+app.use('/users', usersRouter);
 app.use('/productDetail', indexRouter);
 app.use('/productCart', indexRouter);
 app.use('/createProduct', indexRouter);
