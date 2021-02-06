@@ -1,20 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/productDetail.css">    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <title>Detalle Producto</title>
-</head>
+  <%- include('./partials/head.ejs') %> 
 <body>
-  <header class="main-header">
-    <div>
-      <form action="/">     
-      <button class="btn-borde"><i class="fas fa-home"></i>Home</button>
-    </form>  
-    </div>    
-    </header>
+  <%- include('./partials/header.ejs') %>
 
     <main>
       <section>
@@ -64,5 +52,7 @@
 
     </section>
     </main>
+
+    <%- include('./partials/footer.ejs') %>
 </body>
 </html>

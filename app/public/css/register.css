@@ -1,9 +1,6 @@
-*
-  
-  {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+body section{
+  margin-top: 15%;
+  background-color: rgb(219, 219, 219);
 }
 
 .titleForm{
@@ -12,13 +9,7 @@
   color: #fff;
 }
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: #000;
-  margin-top: 15px;
-  font-size: 2em;
-}
+
 h1 a img{
     width: 20%;
 }
@@ -130,4 +121,9 @@ p{
     padding-bottom: 10px;
   }
   
+}
+@media (min-width: 1200px){
+  body section {
+    margin: 0%;
+  }
 }

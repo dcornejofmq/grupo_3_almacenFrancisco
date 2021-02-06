@@ -1,22 +1,4 @@
-  body{
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(87, 127, 175) ;
-   }
-  .main-header{
-    background-color: rgb(9, 72, 153) ;
-    padding: 20px;
-    display: flex;
- }
-
- .logo{
-    width: 100px;
-    
-  }
-  .text{
-      color:rgb(219, 219, 219) ;
-      padding-left: 60%;
-      padding-top: 40px;
-  }
+ 
   @charset "utf-8";
   /* CSS Document */
   
@@ -29,7 +11,7 @@
   /* ---------- ERIC MEYER'S RESET CSS ---------- */
   /* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
   
-  @import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+ /* @import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
   
   /* ---------- FONTAWESOME ---------- */
   
@@ -39,12 +21,7 @@
   
   /* ---------- GENERAL ---------- */
   
-  body {
-    background: #f4f4f4;
-    color: #5a5656;
-    font: 100%/1.5em 'Open Sans', sans-serif;
-    margin: 0;
-  }
+  
   
   a { text-decoration: none; }
   
