@@ -2,15 +2,21 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
+var methodOverride = require( 'method-override');
 var logger = require('morgan');
 
 var app = express();
 
+// Seteo la ubicación de los archivos que usaremos en la aplicación - Dir: Public 
 app.use(express.static(path.join(__dirname, 'public')));
+// Indico que cuando recibamos un objeto por Post se podran acceder a los datos en pos.body como parametros del tipo String
 app.use(express.urlencoded({ extended: false }));
-app.use(logger('dev'));
+// convierte los objetos del tipo Json a array de String
 app.use(express.json());
+app.use(logger('dev'));
 app.use(cookieParser());
+// La linea siguiente me permite agregar otros metodos diferentes de GET y POST en los formularios
+app.use(methodOverride( "_method"));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
