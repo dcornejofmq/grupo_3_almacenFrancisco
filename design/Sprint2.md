@@ -5,6 +5,7 @@
 
 
 ## Requisitos
+
 >Repositorio creado: Indispensable para trabajar en equipo y realizar la entrega de cada sprint. Recuerden que todos los integrantes deben contribuir con código.
 >Sitio definido y bocetos terminados: La temática del sitio y los bocetos deberán estar definidos. Sin ellos, lo más probable es que tengan problemas para avanzar con rapidez y para trabajar por separado de manera eficiente. Los bocetos también sirven de guía a la hora de resolver dudas o conflictos.
 
