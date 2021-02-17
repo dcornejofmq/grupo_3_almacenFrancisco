@@ -3,6 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var methodOverride = require( 'method-override');
+// Libreria para gestionar archivos que se envian al servidor desde un formulario
+var multer = require( 'multer');
 var logger = require('morgan');
 
 var app = express();
@@ -21,7 +23,11 @@ app.use(methodOverride( "_method"));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+// Cargo Middlewares
+const logMiddleware  = require( './middlewares/logMiddleware');
+//app.use( logMiddleware( req, res, next));
 
+// Cargo los routers 
 const indexRouter    = require('./routes/index');
 const usersRouter    = require('./routes/users');
 const productsRouter = require('./routes/products');
