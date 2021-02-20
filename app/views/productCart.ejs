@@ -4,31 +4,28 @@
 
 <body>
     <%- include('./partials/header.ejs') %>
-    <main>
-        <h4>Productos</h4>
-        <section class="cart">
-            <article class="product">
-                <div class="item-1">
-                <a href="/productDetail"><img src="/Img/arroz.jpg" alt="arroz" width="100px"></a>
-                </div>
-            
-            <div class="description">
-            <p>Arroz Gallo</p>
+    <main class="cart">
+        <h4>Carrito de Compras</h4>
+        <section>
+            <form action="cartproduct">
+            <div class="line">
+                
             </div>
-                <div class="item-2">
-                    <p>Cantidad</p>
-                    <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
+            <article class="art">
+                <div class="item">
+                <a class="img" href="/productDetail"><img src="/Img/arroz.png" alt="arroz" width="100px"></a>
+                <h6 class="h6">Arrroz Gallo X 500g</h6>
                 </div>
-                <div class="precio">
-                    <p>Precio</p>
-                    <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-
-                </div>
-            </article>
             
+                
+            </article>
+            <div class="line">
+                
+            </div>
             <article class="product">
                 <div class="item-1">
                     <img src="/Img/aceite.webp" alt="arroz" width="100px" height="95px">
+                    
                     </div>
                 </div>
                 <div class="description">
@@ -86,6 +83,7 @@
             <article class="submit">
                 <button class="btn-borde" type="submit">Finalizar Compra</button>
               </article>
+            </form>
         </section>
     </main>
 
