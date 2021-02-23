@@ -45,7 +45,7 @@
   }
   
   form fieldset input[type="text"], input[type="password"] {
-    background: #e5e5e5;
+   
     border: none;
     border-radius: 3px;
     color: #5a5656;
@@ -54,12 +54,12 @@
     height: 50px;
     outline: none;
     padding: 0px 10px;
-    width: 280px;
+    width: 230px;
     -webkit-appearance:none;
   }
   
   form fieldset input[type="submit"] {
-    background-color: #008dde;
+    background-color: rgb(9, 72, 153);
     border: none;
     border-radius: 3px;
     color: #f4f4f4;
