@@ -219,10 +219,7 @@ display: none;
   margin: 5%;
 }
 footer{
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 0;
+  
 }
 @media (min-width: 768px){
 header div{
