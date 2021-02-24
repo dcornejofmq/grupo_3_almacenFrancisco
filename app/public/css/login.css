@@ -92,56 +92,27 @@
     width: 50px;
   }
   
-  .facebook-before {
-    background: #0064ab;
-    border-radius: 3px 0px 0px 3px;
-    color: #f4f4f4;
-    display: block;
-    float: left;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    width: 50px;
-  }
-  
-  .facebook {
-    background: #0079ce;
-    border: none;
-    border-radius: 0px 3px 3px 0px;
-    color: #f4f4f4;
-    cursor: pointer;
-    height: 50px;
-    text-transform: uppercase;
-    width: 250px;
-  }
-  
-  .twitter-before {
-    background: #189bcb;
-    border-radius: 3px 0px 0px 3px;
-    color: #f4f4f4;
-    display: block;
-    float: left;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    width: 50px;
-  }
-  
-  
-  .twitter {
-    background: #1bb2e9;
-    border: none;
-    border-radius: 0px 3px 3px 0px;
-    color: #f4f4f4;
-    cursor: pointer;
-    height: 50px;
-    text-transform: uppercase;
-    width: 250px;
+  .recovery{
+    font-size: 15px;
+    font-weight: bold;
   }
  h5{
    text-align: center;
    color: rgb(219, 219, 219);
  }
+@media (min-width: 500px){
+  .formsubmit{
+    background: rgb(9, 72, 153);
+    color: rgb(219, 219, 219);
+    padding: 10px 20px;
+    margin: 5%;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+  }
+}
+
  @media (min-width: 768px){
 .login{
   display: flex;
