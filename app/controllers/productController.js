@@ -30,7 +30,7 @@ const productController = {
             
         }
         let productJson = JSON.stringify(products);
-        fs.writeFileSync('./app/database/products.json', productJson);
+        fs.writeFileSync('./app/database/productsjson.Json', productJson);
         res.redirect('/');
     },
     list: function(req, res){
