@@ -2,12 +2,12 @@ const usersController = {
 
     
     login: function(req, res){        
-        return res.render('login', {css:'login.css'});
+        return res.render('login');
     },
     
     register: function(req, res){
        
-        return res.render('register', {cssreg:'register.css'});
+        return res.render('register');
     }
 
     
