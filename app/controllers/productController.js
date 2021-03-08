@@ -20,8 +20,18 @@ const productController = {
        return res.render('createProduct')
     },
     save: function(req, res){
-       
-        res.redirect('index')
+        let productNew ={
+            
+            nameProd: req.body.nameProd,
+            description: req.body.description,
+            category: req.body.category,
+            dataProduct: req.body.dataProduct,
+            price: req.body.price
+            
+        }
+        let productJson = JSON.stringify(products);
+        fs.writeFileSync('./app/database/products.json', productJson);
+        res.redirect('/');
     },
     list: function(req, res){
         return res.render('productList')
