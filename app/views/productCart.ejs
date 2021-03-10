@@ -6,83 +6,49 @@
     <%- include('./partials/header.ejs') %>
     <main class="cart">
         <h4>Carrito de Compras</h4>
-        <section>
+        <section class="cartform">
             <form action="cartproduct">
             <div class="line">
                 
             </div>
             <article class="art">
                 <div class="item">
+               
                 <a class="img" href="/productDetail"><img src="/Img/arroz.png" alt="arroz" width="100px"></a>
-                <h6 class="h6">Arrroz Gallo X 500g</h6>
+                    </div>
+                    <div  class="item-2">
+                <h4>Arrroz Gallo X 500g</h4>
                 </div>
-            
+                <div class="item-3">
+                    <h4>Cantidad</h4>
+                        <textarea name="cant" id="" cols="3" rows="1"></textarea>
+                </div>
+                <div class="item-4">
+                    <h4>Precio</h4>
+                        <textarea name="price" id="" cols="3" rows="1"></textarea>
+
+                </div>
                 
             </article>
             <div class="line">
                 
             </div>
-            <article class="product">
-                <div class="item-1">
-                    <img src="/Img/aceite.webp" alt="arroz" width="100px" height="95px">
-                    
-                    </div>
+            
+           
+            
+            <article class="pay">
+                <div class="cleancart">
+                    <button class="btn"><i class="fas fa-trash"></i>Vaciar Carrito</button>
                 </div>
-                <div class="description">
-                <p>Aceite Cañuelas</p>
-                </div>
-                    <div class="item-2">
-                        <p>Cantidad</p>
-                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-                    </div>
-                    <div class="precio">
-                        <p>Precio</p>
-                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-
-                    </div>
+                <div class="total">
+                <h3>TOTAL: <textarea name="cantidad" id="" cols="6" rows="1"></textarea></h3>
+                
+            </div>  
+                <div class="finish">
+                    <button class="btn" type="submit">Finalizar Compra</button>
+                  </div>
             </article>
-            <article class="product">
-                <div class="item-1">
-                    <img src="/Img/polenta.jpg" alt="arroz" width="100px" height="95px">
-                    </div>
-                </div>
-                <div class="description">
-                <p>Polenta Presto Pronta</p>
-                </div>
-                    <div class="item-2">
-                        <p>Cantidad</p>
-                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-                    </div>
-                    <div class="precio">
-                        <p>Precio</p>
-                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-
-                    </div>
-            </article>
-            <article class="product">
-                <div class="item-1">
-                    <img src="/Img/fideo.jpg" alt="arroz" width="100px">
-                    </div>
-                    <div class="description">
-                    <p>Fideos Matarazzo</p>
-                    </div>
-                    <div class="item-2">
-                        <p>Cantidad</p>
-                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-                    </div>
-                    <div class="precio">
-                        <p>Precio</p>
-                        <textarea name="cantidad" id="" cols="3" rows="1"></textarea>
-
-                    </div>
-            </article>
-            <div class="total">
-                <h3>Importe Total</h3>
-                <textarea name="cantidad" id="" cols="8" rows="1"></textarea>
-            </div>
-            <article class="submit">
-                <button class="btn-borde" type="submit">Finalizar Compra</button>
-              </article>
+            
             </form>
         </section>
     </main>

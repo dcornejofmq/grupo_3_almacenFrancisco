@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="css/createProduct.css">
+    
     <%- include('./partials/head.ejs') %> 
 <body>
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Carga de Producto</h2>
-            <form action="">
-                <input type="text" name="name" id="name" placeholder="Nombre de producto" required>
+            <form action="/products/create" method="POST">
+                <input type="text" name="nameProd" id="nameProd" placeholder="Nombre de producto" required>
                 <input type="text" name="description" id="description" placeholder="Descripcion" required>
                 
                 <select type="text" name="category" id="category" required>
@@ -22,7 +22,7 @@
                 <input type="text" name="" class="dataProduct" placeholder="" required>
                 <input type="text" name="price" id="price" placeholder="Precio" required>
                 <label for="photo">Foto del Producto</label>
-                <input type="file"  accept="image/*" name="image" id="image" required>  
+                <input type="file"  accept="image/*" name="image" id="image">  
 
                     <button class="btn" type="submit">Enviar Producto</button>
 

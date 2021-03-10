@@ -5,7 +5,11 @@
 body{
   background-color: rgb(219, 219, 219);
   margin: 0%;
+  
 }
+
+
+
 .top-header{
   background-color: rgb(9, 72, 153) ;
   height: 50px;
@@ -19,6 +23,8 @@ body{
   text-align: center;
   padding: 12px;
 }
+
+
 header div img{
    width: 35px;
    margin-top: 10px;
@@ -217,6 +223,10 @@ display: none;
   padding-top: 10%;
   margin: 5%;
 }
+footer{
+  
+}
+
 @media (min-width: 768px){
 header div{
 margin-left: auto;

@@ -3,48 +3,24 @@
   <%- include('./partials/head.ejs') %> 
 <body>
   <%- include('./partials/header.ejs') %>
-    <main>
+    
         
-     
+     <section>
+      <h1 class="title"><strong>Bienvenido</strong></h1>
+      <article>      
+
+        <form action="" class="cont-form" method = "post">
+     <input type="text" class="form-input ancho95" name="user" id="user" placeholder = "Nombre de Usuario" required>
+     <input type="password" class="form-input ancho" name="password" id="password" placeholder = "Contraseña" required>
+
+       <p class="recovery"><a href="#">Olvidaste tu Password?</a></p>
+
+       <input type="submit" value="Iniciar Sesion" class="formsubmit">
+      </form>
+    </article>
+
+  </section>
     
-    
-      <div id="login">
-    
-        <h1><strong>Bienvenido</strong></h1>
-    
-        <form action="javascript:void(0);" method="get">
-    
-          <fieldset>
-    
-            <input type="text" class="form-input ancho95" name="user" id="user" placeholder = "Nombre de Usuario" required>
-          <input type="password" class="form-input ancho95" name="password" id="password" placeholder = "Contraseña" required>
-    
-            <p><a href="#">Olvidaste tu Password?</a></p>
-    
-            <p><input type="submit" value="Login"></p>
-    
-          </fieldset>
-    
-        </form>
-    
-        <p><span class="btn-round">o</span></p>
-    
-        <p>
-    
-          <a class="facebook-before"><span class="fontawesome-facebook"></span></a>
-          <button class="facebook">Inicia Sesion con Facebook</button>
-    
-        </p>
-    
-        <p>
-    
-          <a class="twitter-before"><span class="fontawesome-twitter"></span></a>
-          <button class="twitter">Inicia Sesion con Twitter</button>
-    
-        </p>
-    
-      </div> <!-- end login -->
-    </main>
     <%- include('./partials/footer.ejs') %>
 </body>
 </html>
