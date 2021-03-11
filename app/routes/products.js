@@ -4,14 +4,23 @@ var router = express.Router();
  
 router.get('/cart', productController.cart);
 
-router.get('/detail', productController.detail);
-  
-router.get('/create', productController.create); 
-router.post('/', productController.save)
-router.get('/list', productController.list);
+/* Products List*/
+router.get('/', productController.list)
 
-router.get('/:id', productController.id);
-router.get('/edit', productController.edit);
+/* Create Product*/  
+router.get('/create', productController.create); 
+router.post('/', productController.save);
+
+/* Podruct Detail*/
+router.get('/:id', productController.detail);
+
+/* Edit Product*/
+router.get('/:id/edit', productController.editProd);
+router.put('/:id', productController.saveEdit);
+
+/* Delete Product*/
+router.delete('/:id', productController.delete);
+
 
 
 
