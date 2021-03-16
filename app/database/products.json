@@ -1,1 +1,1 @@
-[{"nameProd":"Coca Cola","description":"Coca Cola 500cm","category":"bebidas","price":"75,00"}]
+[{"id":1,"nameProd":"Coca Cola","description":"Coca Cola 500cm","category":"bebidas","price":"80,00"},{"id":7,"nameProd":"Fanta 500","description":"Fanta 500 cm","category":"bebidas","price":"75,00"},{"id":8,"nameProd":"Soda","description":"Soda 500cm","category":"bebidas","price":"50,00"}]

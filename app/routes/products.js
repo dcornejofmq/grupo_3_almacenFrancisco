@@ -9,7 +9,7 @@ router.get('/', productController.list)
 
 /* Create Product*/  
 router.get('/create', productController.create); 
-router.post('/', productController.save);
+router.post('/create', productController.save);
 
 /* Podruct Detail*/
 router.get('/:id', productController.detail);

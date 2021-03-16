@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 const productsFilePath = path.join(__dirname, '../database/products.json');
-const produ = fs.readFileSync(productsFilePath,{encoding: 'utf-8'} );
-const products = JSON.parse(produ);
+const product = fs.readFileSync(productsFilePath,{encoding: 'utf-8'}, 'w' );
+const products = JSON.parse(product);
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
@@ -17,8 +17,10 @@ const productController = {
         return res.render('createProduct')
      },
      save: function(req, res){
+         
         let productNew = {
             
+            id: products[products.length-1].id+1,            
             nameProd: req.body.nameProd,
             description: req.body.description,
             category: req.body.category,
@@ -26,11 +28,13 @@ const productController = {
             price: req.body.price
             
         }
+        console.log(products);
         products.push(productNew)
-        
+        console.log(productNew);
+        console.log(products);
         let productJson = JSON.stringify(products);
         console.log(productJson);
-        fs.writeFileSync('../database/products.json', productJson);
+        fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
         res.redirect('/');
     },
 
