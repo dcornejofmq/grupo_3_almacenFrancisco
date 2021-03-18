@@ -1,1 +1,127 @@
-[{"id":1,"nameProd":"Coca Cola","description":"Coca Cola 500cm","category":"bebidas","price":"80,00"},{"id":7,"nameProd":"Fanta 500","description":"Fanta 500 cm","category":"bebidas","price":"75,00"},{"id":8,"nameProd":"Soda","description":"Soda 500cm","category":"bebidas","price":"50,00"}]
+[{
+    "id": 1,
+    "nameProd": "Fideo Matarrazzo 500g",
+    "description": "Fideos Matarazzo",
+    "category": "despensa",
+    "price": "55,00",
+    "image": "producto 1.png"
+}, {
+    "id": 2,
+    "nameProd": "Spaguetti Golden 500g",
+    "description": "Spaguetti Golden",
+    "category": "despensa",
+    "price": "50,00",
+    "image": "producto 2.png"
+}, {
+    "id": 3,
+    "nameProd": "Polenta Presto Pronta 500g",
+    "description": "Polenta Presto Pronta",
+    "category": "despensa",
+    "price": "55,00",
+    "image": "producto 3.png"
+}, {
+    "id": 4,
+    "nameProd": "Manteca Rama 200g",
+    "description": "Manteca Rama 200g",
+    "category": "despensa",
+    "price": "80,00",
+    "image": "producto 4.png"
+}, {
+    "id": 5,
+    "nameProd": "Manteca Asturiana 200g",
+    "description": "Manteca Asturiana  200g",
+    "category": "despensa",
+    "price": "83,00",
+    "image": "producto 5.png"
+}, {
+    "id": 6,
+    "nameProd": "Arroz Gallo 500g",
+    "description": "Arroz Gallo 500g",
+    "category": "despensa",
+    "price": "75,00",
+    "image": "producto 6.png"
+}, {
+    "id": 7,
+    "nameProd": "Fanta 1.5L",
+    "description": "Fanta 1.5L",
+    "category": "bebidas",
+    "price": "120,00",
+    "image": "producto 7.png"
+}, {
+    "id": 8,
+    "nameProd": "Sprite 1.5L",
+    "description": "Sprite 1.5L",
+    "category": "bebidas",
+    "price": "123,00",
+    "image": "producto 8.png"
+}, {
+    "id": 9,
+    "nameProd": "Coca Cola 1.5L",
+    "description": "Coca Cola 1.5L",
+    "category": "bebidas",
+    "price": "130,00",
+    "image": "producto 9.png"
+}, {
+    "id": 10,
+    "nameProd": "Agua Villavicencio 1.5L",
+    "description": "Agua Villavicencio 1.5L",
+    "category": "bebidas",
+    "price": "80,00",
+    "image": "producto 10.png"
+}, {
+    "id": 11,
+    "nameProd": "Vino Toro 750cm",
+    "description": "Vino Toro 750cm",
+    "category": "bebidas",
+    "price": "85,00",
+    "image": "producto 11.png"
+}, {
+    "id": 12,
+    "nameProd": "Cerveza Corono 375cm",
+    "description": "Cerveza Corono 375cm",
+    "category": "bebidas",
+    "price": "105,00",
+    "image": "producto 12.png"
+}, {
+    "id": 13,
+    "nameProd": "Desodorante Dove ",
+    "description": "Desodorante Dove ",
+    "category": "cuiper",
+    "price": "110,00",
+    "image": "producto 13.png"
+}, {
+    "id": 14,
+    "nameProd": "Shampoo Nivea",
+    "description": "Shampoo Nivea",
+    "category": "cuiper",
+    "price": "100,00",
+    "image": "producto 14.png"
+}, {
+    "id": 15,
+    "nameProd": "Desodorante Nivea",
+    "description": "Desodorante Nivea",
+    "category": "cuiper",
+    "price": "105,00",
+    "image": "producto 15.png"
+}, {
+    "id": 16,
+    "nameProd": "Desodorante Nivea 48hs",
+    "description": "Desodorante Nivea 48hs",
+    "category": "cuiper",
+    "price": "115,00",
+    "image": "producto 16.png"
+}, {
+    "id": 17,
+    "nameProd": "Crema de enjuague Dove",
+    "description": "Crema de enjuague Dove",
+    "category": "cuiper",
+    "price": "125,00",
+    "image": "producto 17.png"
+}, {
+    "id": 18,
+    "nameProd": "Pasta Dental Colgate",
+    "description": "Pasta Dental Colgate",
+    "category": "cuiper",
+    "price": "90,00",
+    "image": "producto 18.png"
+}]

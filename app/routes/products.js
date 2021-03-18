@@ -15,8 +15,8 @@ router.post('/create', productController.save);
 router.get('/:id', productController.detail);
 
 /* Edit Product*/
-router.get('/:id/edit', productController.editProd);
-router.put('/:id', productController.saveEdit);
+router.get('/edit/:idProd', productController.editProd);
+router.put('/edit/:idProd', productController.saveEdit);
 
 /* Delete Product*/
 router.delete('/:id', productController.delete);

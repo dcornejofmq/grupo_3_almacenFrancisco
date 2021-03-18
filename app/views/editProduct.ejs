@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <%- include('./partials/head.ejs') %> 
+<body>
+    <%- include('./partials/header.ejs') %>
+        <main class="formProduct">
+            <h2>Editar Producto</h2>
+            <form method="PUT" action="/products/edit?_method=PUT" >
+                <input type="text" name="nameProd" value="<%= prodToEdit.nameProd %> ">
+                <input type="text" name="description" value="<%= prodToEdit.description %> ">
+                
+                <select type="text" name="category" >
+                    <option>Seleccione Categoria</option>
+                    <option value="despensa">Despensa</option>
+                    <option value="bebidas">Bebidas</option>
+                    <option value="mascotas">Mascotas</option>
+                    <option value="bebes">Bebes</option>
+                    <option value="cuiper">Cuidado Personal</option>
+                    <option value="limpieza">Limpieza</option>              
+                </select>
+                <input type="text" name="price" value="<%= prodToEdit.price %> ">
+                    
+              
+                <button class="btn" type="submit" value="editar">Modificar Producto</button>
+
+
+
+            </form>
+           
+        </main>
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+
+</html>
