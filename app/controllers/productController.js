@@ -73,8 +73,17 @@ const productController = {
 
         res.redirect('/')
     },
-    delete: function(req, res){
+    toDelete:function(req, res){
+        prodToDel = products.find(products => (products.id == req.params.id));
         
+        return res.render('deleteProduct', {prodToDel: prodToDel});
+    },
+    delete: function(req, res){
+        let prodToDelete = products.find(products => (products.id == req.params.id));
+        produ = products.filter(products =>(products.id != prodToDelete,id));
+        let productJson = JSON.stringify(produ);
+        fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
+        res.redirect("createProduct");
     }
 }
 

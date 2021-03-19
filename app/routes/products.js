@@ -19,7 +19,8 @@ router.get('/edit/:idProd', productController.editProd);
 router.put('/edit/:idProd', productController.saveEdit);
 
 /* Delete Product*/
-router.delete('/:id', productController.delete);
+router.get('/delete/:id', productController.toDelete);
+router.delete('/delete/:id', productController.delete);
 
 
 

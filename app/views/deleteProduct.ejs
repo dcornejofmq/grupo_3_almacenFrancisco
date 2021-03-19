@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %> 
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main class="cart">
+        
+        <h4>Listado de Productos</h4>      
+        
+        
+        <div class="cartform">
+           
+            <div class="line">
+                
+            </div>
+            
+            
+            
+            <article class="art">
+                <div class="item">
+               
+                <a class="img" href="/productDetail"><img src="/Img/productos png/<%= prodToDel.image %>" alt="arroz" width="100px"></a>
+                    </div>
+                    <div  class="item-2">
+                <h4><%= prodToDel.nameProd %></h4>
+                </div>
+                
+                <div class="deleteItem">
+                    <form method="POST" action="/products/delete/:id?_method=DELETE"></form>
+                    <button type="submit">Eliminar Producto</button>
+
+                </div>
+
+                
+            </article>
+            <div class="line">
+                
+            </div>
+           
+    </div>
+    
+</main>
+
+
+
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>
