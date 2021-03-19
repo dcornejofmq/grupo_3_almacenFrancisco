@@ -13,21 +13,21 @@
             <div class="line">
                 
             </div>
+            
+            <% enviarVista.forEach(function(enviarVista){ %>
+            
             <article class="art">
                 <div class="item">
                
-                <a class="img" href="/productDetail"><img src="/Img/arroz.png" alt="arroz" width="100px"></a>
+                <a class="img" href="/productDetail"><img src="/Img/productos png/<%= enviarVista.image %>" alt="arroz" width="100px"></a>
                     </div>
                     <div  class="item-2">
-                <h4>Arrroz Gallo X 500g</h4>
+                <h4><%= enviarVista.nameProd %></h4>
                 </div>
-                <div class="item-3">
-                    <h4>Cantidad</h4>
-                        <textarea name="cant" id="" cols="3" rows="1"></textarea>
-                </div>
+                
                 <div class="item-4">
                     <h4>Precio</h4>
-                        <textarea name="price" id="" cols="3" rows="1"></textarea>
+                        <textarea name="price" id="" cols="5" rows="1"><%= enviarVista.price %></textarea>
 
                 </div>
                 
@@ -35,7 +35,7 @@
             <div class="line">
                 
             </div>
-            
+            <% }); %>
     </div>
     
 </main>

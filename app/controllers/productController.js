@@ -11,29 +11,9 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 const productController = {
 
     list: (req, res) => {
-        const bebidas = [];
-        const despensa = [];
-        const cuiper = [];
-
-        products.map((products) => {
-            if (products.category == 'bebidas'){
-                bebidas.push(products)
-            }if (products.category == 'despensa'){
-                despensa.push(products)
-            }else if(products.category == 'cuiper'){
-                cuiper.push(products)
-            } 
-
-
-        });
-        const enviarVista = {
-            prodBebidas: bebidas,
-            prodDespensa: despensa,
-            prodCuiper: cuiper
-        }
+        enviarVista = products;         
         
-        
-        return res.render('productList',{enviarVista: enviarVista});
+        return res.render('productList',{enviarVista: enviarVista} );
         
     },
     create: function(req, res) {
