@@ -6,7 +6,7 @@
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Editar Producto</h2>
-            <form method="PUT" action="/products/edit?_method=PUT" >
+            <form action="/products/edit?_method=PUT" method="PUT">
                 <input type="text" name="nameProd" value="<%= prodToEdit.nameProd %> ">
                 <input type="text" name="description" value="<%= prodToEdit.description %> ">
                 

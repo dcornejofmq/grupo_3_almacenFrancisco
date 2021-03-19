@@ -6,10 +6,10 @@
 
     <main>
       <section>
-      <article>
-        <img src="Img/arroz.jpg" alt="arroz" >
-        <div>
-          <p class="ofer">Oferta $45</p>
+      <article class="arti">
+        <img class="artiImg" src="/Img/productos png/<%= prodFound.image %>" alt="arroz" >
+        <div class="divprod">
+          <p class="ofer">Oferta <%= prodFound.price %>  </p>
           <p class="discount">Descuento 15% Off</p>
         </div>
         <form action="cantidad">
@@ -26,20 +26,20 @@
 <table>
   <tr>
     <th>Caracteristicas</th>
-    <th>Informacion</th>
+    
   </tr>
   <tr>
-    <td>Peso</td>
-    <td>500G</td>
+    <td>Producto: <%= prodFound.nameProd %></td>
+    
   </tr>
   <tr>
-    <td>Tipo</td>
-    <td>Paquete</td>
+    <td>Descripcion: <%= prodFound.description %></td>
+    
 
   </tr>
   <tr>
-    <td>Marca</td>
-    <td>Gallo</td>
+    <td>Categoria:<%= prodFound.category %></td>
+    
     
   </tr>
 </table>

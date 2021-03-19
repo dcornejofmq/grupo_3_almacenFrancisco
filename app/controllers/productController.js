@@ -33,7 +33,7 @@ const productController = {
         }
         
         
-        return res.render('productList', enviarVista);
+        return res.render('productList',{enviarVista: enviarVista});
         
     },
     create: function(req, res) {
@@ -62,7 +62,9 @@ const productController = {
 
     detail: function(req, res){
         
-        return res.render('productDetail', )
+        prodFound = products.find(products => (products.id == req.params.id));
+        
+        return res.render('productDetail', {prodFound: prodFound});
     },
     cart: function(req, res){
         return res.render('productCart')
@@ -74,21 +76,22 @@ const productController = {
         return res.render('editProduct', {prodToEdit: prodToEdit});
     },    
     saveEdit: function(req, res) {    
-        let productEdit = {           
-                       
-            nameProd: req.body.nameProd,
-            description: req.body.description,
-            category: req.body.category,            
-            price: req.body.price
-            
-        }
-        
-        products.push(productEdit)        
-        
-        let productJson = JSON.stringify(products);
+        let productEdit = products.find(products =>(products.id == req.params.id));
+
+        let updateProd = products.map(products => {
+            if(products.id == productEdit.id){
+                products.nameProd = req.body.nameProd;
+                products.description = req.body.description;
+                products.category = req.body.category;
+                products.price = req.body.price;
+            }
+            return products;
+        })
+        let productJson = JSON.stringify(updateProd);
         
         fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
-        return res.redirect('/editProduct');
+
+        res.redirect('/')
     },
     delete: function(req, res){
         

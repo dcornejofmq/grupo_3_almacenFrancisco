@@ -31,3 +31,63 @@
    
 
 }
+.arti{
+    background-color: rgb(219, 219, 219) ;
+      margin: 50px 100px;;
+      border-radius: 5%;
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .artiImg{
+    display: block;
+    width: 100%;
+    padding: 10%;
+  }
+  .divprod{
+    
+    display: flex;
+    flex-direction: column;  
+    
+  }
+.price {
+    font-size: 18px;
+    width: 30%;
+  }
+  main section article i, .discount {
+    color:rgb(235, 114, 5) ;
+  }
+  
+  .discount {
+    width: 70%;
+    margin-left: auto;
+    font-weight: bold;
+  }
+   .ofer {
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+  }
+  .ofer{
+    font-size: 20px;
+    text-align: center;
+  }
+  .many{
+    margin: 18%;
+  }
+  .add{
+    
+   border-top: none; 
+   padding: 15px;
+   
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+  }
+  @media (min-width: 1200px){
+      .arti{
+          text-align: center;
+      }
+  }
