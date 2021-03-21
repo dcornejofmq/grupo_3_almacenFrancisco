@@ -7,6 +7,7 @@ var methodOverride = require( 'method-override');
 var multer = require( 'multer');
 var logger = require('morgan');
 
+
 var app = express();
 
 // Seteo la ubicación de los archivos que usaremos en la aplicación - Dir: Public 
@@ -24,6 +25,7 @@ app.use(methodOverride( "_method"));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 // Cargo Middlewares
+
 const logMiddleware  = require( './middlewares/logMiddleware');
 //app.use( logMiddleware( req, res, next));
 
