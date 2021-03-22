@@ -6,7 +6,7 @@
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Creacion de perfil</h2>
-            <form action="/users/create" method="POST">
+            <form action="/users/create" method="POST" enctype="multipart/form-data">
                 <input type="text" name="firstName" id="firstName" placeholder="Nombre" >
 
                 <input type="text" name="lastName" id="lastName" placeholder="Apellido" >

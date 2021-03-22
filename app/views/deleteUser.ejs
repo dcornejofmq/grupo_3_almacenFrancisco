@@ -5,7 +5,7 @@
     <%- include('./partials/header.ejs') %>
     <main class="cart">
         
-        <h4>Listado de Productos</h4>      
+        <h4>Usuario</h4>      
         
         
         <div class="cartform">
@@ -18,16 +18,17 @@
             
             <article class="art">
                 <div class="item">
-                    <a class="img" href="/productDetail"><img src="/Img/productos png/<%= prodToDel.image %>" alt="arroz" width="100px"></a>
+                    <a class="img" ><img src="/Img/users/<%= userToDel.image %>" alt="arroz" width="100px"></a>
                 
                     </div>
-                    <div  class="item-2">
-                        <h4><%= prodToDel.nameProd %></h4>
+                    <div  class="item-2">                
+                <h4><%= userToDel.firstName %> <%= userToDel.lastName %></h4>
+                               
                 </div>
                 
                 <div class="deleteItem">
                     <form method="POST" action="/products/delete/:id?_method=DELETE"></form>
-                    <button type="submit">Eliminar Producto</button>
+                    <button type="submit">Eliminar Usuario</button>
 
                 </div>
 

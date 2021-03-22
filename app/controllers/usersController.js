@@ -46,8 +46,44 @@ const usersController = {
         let userJson = JSON.stringify(users);        
         fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
         return res.redirect('/');
+    },
+    editUser: function(req, res){
+        let idUser = req.params.idUser;
+        let userToEdit = users[idUser];
+        
+        return res.render('editUser', {userToEdit: userToEdit});
+    },    
+    saveUser: function(req, res) {    
+        let userEdit = users.find(users =>(users.id == req.params.id));
+
+        let updateUser = users.map(users => {
+            if(users.id == usersEdit.id){
+                users.firstName = req.body.firstName;
+                users.lastName = req.body.lastName;
+                users.email = req.body.category;
+                users.password = req.body.password;
+                users.image = req.body.image
+            }
+            return users;
+        })
+        let userJson = JSON.stringify(updateProd);
+        
+        fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
+
+        res.redirect('/')
+    },
+    userDelete:function(req, res){
+        userToDel = users.find(users => (users.id == req.params.id));
+        
+        return res.render('deleteUser', {userToDel: userToDel});
+    },
+    delete: function(req, res){
+        let userToDelete = users.find(users => (users.id == req.params.id));
+        user = users.filter(users =>(users.id != userToDelete.id));
+        let userJson = JSON.stringify(user);
+        fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
+        res.redirect("/");
     }
-    
 }
 
 
