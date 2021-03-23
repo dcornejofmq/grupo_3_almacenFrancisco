@@ -1,10 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const { validationResult } = require('express-validator');
 
 const usersFilePath = path.join(__dirname, '../database/users.json');
 const user = fs.readFileSync(usersFilePath,{encoding: 'utf-8'}, 'w' );
 const users = JSON.parse(user);
-
+ 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
@@ -30,22 +31,30 @@ const usersController = {
         res.render('registerUser')
     },
     sendUser: function(req, res){
-        let userNew = {
+        let errors = validationResult(req);
+        if(errors.isEmpty()){
+            let userNew = {
             
-            id: users[users.length-1].id+1,           
-            firstName: req.body.firstName,
-            lastName: req.body.lastName,
-            email: req.body.email,            
-            password: req.body.password,
-            image: req.body.image
+                id: users[users.length-1].id+1,           
+                firstName: req.body.firstName,
+                lastName: req.body.lastName,
+                email: req.body.email,            
+                password: req.body.password,
+                image: req.body.image
+                
+            }
             
+            users.push(userNew)  
+            console.log(users)      
+            let userJson = JSON.stringify(users);        
+            fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
+            return res.redirect('/');
+        } else {
+            return res.render('registerUser', { errors: errors.array(), 
+            old: req.body });
         }
+      
         
-        users.push(userNew)  
-        console.log(users)      
-        let userJson = JSON.stringify(users);        
-        fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
-        return res.redirect('/');
     },
     editUser: function(req, res){
         let idUser = req.params.idUser;
