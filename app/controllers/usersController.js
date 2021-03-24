@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+const bcrypt = require('bcrypt');
 const { validationResult } = require('express-validator');
+
+
 
 const usersFilePath = path.join(__dirname, '../database/users.json');
 const user = fs.readFileSync(usersFilePath,{encoding: 'utf-8'}, 'w' );
@@ -10,19 +13,32 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 
 
-//const { validationResult} = require('express-validator');
-
-/*const User = require('../models/User')*/
-    
-
-
 const usersController = {
 
     
     login: function(req, res){        
         return res.render('login');
     },
-    
+    logon: function(req, res) {
+        let errors = validationResult(req);
+        
+        if (errors.isEmpty()){
+           for (let i = 0; i < users.length; i++) {
+               if (users[i].email == req.body.email && bcrypt.compareSync(req.body.password, users[i].password)) {
+                       delete users[i].password;
+                       req.session.user = users[i]; 
+                       
+                       if (req.body.remember) {
+                           
+                       }
+                       return res.redirect('profile');
+                   }
+                       
+            }
+    }else {
+        return res.render('login', {errors: errors.array()});
+    }
+},
     register: function(req, res){
        
         return res.render('register');
@@ -31,7 +47,7 @@ const usersController = {
         res.render('registerUser')
     },
     sendUser: function(req, res){
-        let errors = validationResult(req);
+        let errors = validationResult(req);        
         if(errors.isEmpty()){
             let userNew = {
             
@@ -39,8 +55,8 @@ const usersController = {
                 firstName: req.body.firstName,
                 lastName: req.body.lastName,
                 email: req.body.email,            
-                password: req.body.password,
-                image: req.body.image
+                password: bcrypt.hashSync(req.body.password, 10),
+                image: req.file.filename
                 
             }
             
@@ -51,7 +67,8 @@ const usersController = {
             return res.redirect('/');
         } else {
             return res.render('registerUser', { errors: errors.array(), 
-            old: req.body });
+            old: req.body }); 
+           
         }
       
         
@@ -92,7 +109,17 @@ const usersController = {
         let userJson = JSON.stringify(user);
         fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
         res.redirect("/");
+    },
+    profile: function (req, res) {
+        
+        res.render('profile', {user: req.session.user});
+    },
+    logout:function(req, res) {
+    req.session.destroy();
+    return res.redirect('/');    
     }
+
+    
 }
 
 

@@ -27,7 +27,8 @@ const productController = {
             nameProd: req.body.nameProd,
             description: req.body.description,
             category: req.body.category,            
-            price: req.body.price
+            price: req.body.price,
+            image: req.file.filename
             
         }
         console.log(products);

@@ -8,13 +8,23 @@
      <section>
       <h1 class="title"><strong>Bienvenido</strong></h1>
       <article>      
-
-        <form action="" class="cont-form" method = "post">
-     <input type="text" class="form-input ancho95" name="user" id="user" placeholder = "Nombre de Usuario" required>
-     <input type="password" class="form-input ancho" name="password" id="password" placeholder = "Contraseña" required>
+       
+        <form action="/users/login" class="cont-form" method = "post">
+          <div class="campo">
+            <% if (locals.errors) {
+                errors.forEach(error => { %>
+                    <h7> <%= error.msg %> </h7><br>
+                    <%  })
+                }
+                %>
+            </div>
+     <input type="email" class="form-input ancho95" name="email" id="email" placeholder = "Email">
+     <input type="password" class="form-input ancho" name="password" id="password" placeholder = "Contraseña">
 
        <p class="recovery"><a href="#">Olvidaste tu Password?</a></p>
-
+       <label class="record">
+        <input  type="checkbox" name="remember"><strong>Recordar Usuario</strong>  
+      </label>   
        <input type="submit" value="Iniciar Sesion" class="formsubmit">
       </form>
     </article>

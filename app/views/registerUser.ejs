@@ -6,15 +6,18 @@
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Creacion de perfil</h2>
+            <div class="campo">
             <% if (locals.errors) {
                 errors.forEach(error => { %>
-                    <p> <%= error.msg %> </p>
+                    <h7> <%= error.msg %> </h7><br>
                     <%  })
                 }
                 %>
+            </div>   
             <form action="/users/create" method="POST" enctype="multipart/form-data">
+                
                 <input type="text" name="firstName" id="firstName" placeholder="Nombre" value="<%= locals.old && old.firstName ? old.firstName : ''%>">
-
+                
                 <input type="text" name="lastName" id="lastName" placeholder="Apellido" value="<%= locals.old && old.lastName ? old.lastName : ''%>">
                            
                 <input type="email" name="email" id="email" placeholder="E-Mail" value="<%= locals.old && old.email ? old.email : ''%>">
