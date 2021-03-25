@@ -81,10 +81,16 @@ const productController = {
     },
     delete: function(req, res){
         let prodToDelete = products.find(products => (products.id == req.params.id));
-        produ = products.filter(products =>(products.id != prodToDelete,id));
+        produ = products.filter(products =>(products.id != prodToDelete.id));
         let productJson = JSON.stringify(produ);
         fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
         res.redirect("createProduct");
+    },
+    catList: function (req, res) {
+        let enviarVista = products.filter(products => (products.category == req.params.idCategory))
+        
+        
+       return res.render('productList',{enviarVista: enviarVista}); 
     }
 }
 

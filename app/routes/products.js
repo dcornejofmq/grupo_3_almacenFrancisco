@@ -36,6 +36,10 @@ router.put('/edit/:idProd', productController.saveEdit);
 router.get('/erase/:id', productController.toDelete);
 router.delete('/erase/:id', productController.delete);
 
+/* Product Category */
+router.get('/category/:idCategory', productController.catList);
+
+
 
 
 
