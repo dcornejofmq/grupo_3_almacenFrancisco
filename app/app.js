@@ -1,7 +1,7 @@
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
+var cookies = require('cookie-parser');
 var methodOverride = require( 'method-override');
 // Libreria para gestionar archivos que se envian al servidor desde un formulario
 var multer = require( 'multer');
@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 // convierte los objetos del tipo Json a array de String
 app.use(express.json());
 app.use(logger('dev'));
-app.use(cookieParser());
+app.use(cookies());
 // La linea siguiente me permite agregar otros metodos diferentes de GET y POST en los formularios
 app.use(methodOverride( "_method"));
 //Aplicacion de Sessions

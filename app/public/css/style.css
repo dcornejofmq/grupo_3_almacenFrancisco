@@ -67,7 +67,7 @@ form.example button {
 .icono{
   font-size: 25px;
   color: rgb(219, 219, 219);
-  padding: 12px; 
+  
   text-align: end;
 }
 a {
@@ -140,6 +140,8 @@ animation-duration: 1.5s;
 .record{
   margin-left: 10%;
 }
+
+
 
 @-webkit-keyframes fade {
 from {opacity: .4} 
@@ -230,10 +232,66 @@ display: none;
 footer{
   
 }
+/* Boton */
+.dropbtn {
+  background-color: rgb(9, 72, 153);
+  color: rgb(219, 219, 219);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
+/* Contenedor */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Contenido Menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links Menu*/
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Color Hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Desplegar Menu */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Desplegar Menu color */
+.dropdown:hover .dropbtn {
+  background-color:rgb(9, 72, 153);
+}
+#content{
+  display: none;
+}
+.row{
+  margin-left: 10%;
+}
+.imgProfile{
+  border-radius: 60px;
+  margin-left: 20%;
+
+}
 @media (min-width: 768px){
 header div{
-margin-left: auto;
+  margin: auto;
 }
 .icono2{
 font-size: 25px;
@@ -254,6 +312,11 @@ display: block;
 color: rgb(87, 127, 175);
 font-size: small;
 }
+.imgProfile{
+  
+  margin-left: 0%;
+
+}
 }
 @media (min-width: 1200px){
 .top-header{
@@ -272,9 +335,10 @@ h6{
 .icono{
   padding: 0px;
   text-align: center;
+
 }
 .icono2{
-  padding: 0px;
+  padding: 19px;
   margin-right: auto;
   text-align: center;
 }
@@ -288,5 +352,20 @@ main section article{
 footer article{
   text-align: center;
 }
+#content{
+  display: block;
+  margin-bottom: auto;
+}
 
+.dropbtn {
+  font-size: 25px;
+  
+}
+.imgProfile {
+  margin-left: 25%;
+}
+.emailProfile{
+  text-align: center;
+    font-size: x-large;
+}
 }

@@ -28,12 +28,15 @@ const usersController = {
                        delete users[i].password;
                        req.session.user = users[i]; 
                        
-                       if (req.body.remember) {
+                      if (req.body.remember) {
+                        res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 2});
+
+                      }
                            
-                       }
-                       return res.redirect('profile');
-                   }
                        
+                       return res.redirect('profile');
+                   
+               }         
             }
     }else {
         return res.render('login', {errors: errors.array()});
