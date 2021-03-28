@@ -17,7 +17,7 @@
             <form action="/users/create" method="POST" enctype="multipart/form-data">
                 
                 <input type="text" name="firstName" id="firstName" placeholder="Nombre" value="<%= locals.old && old.firstName ? old.firstName : ''%>">
-                
+               
                 <input type="text" name="lastName" id="lastName" placeholder="Apellido" value="<%= locals.old && old.lastName ? old.lastName : ''%>">
                            
                 <input type="email" name="email" id="email" placeholder="E-Mail" value="<%= locals.old && old.email ? old.email : ''%>">

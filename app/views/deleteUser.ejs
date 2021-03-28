@@ -15,7 +15,7 @@
             </div>
             
             
-            
+            <form method="POST" action="/users/delete/<%= userToDel.id %>/erase?_method=DELETE">
             <article class="art">
                 <div class="item">
                     <a class="img" ><img src="/Img/users/<%= userToDel.image %>" alt="arroz" width="100px"></a>
@@ -27,11 +27,11 @@
                 </div>
                 
                 <div class="deleteItem">
-                    <form method="POST" action="/products/delete/:id?_method=DELETE"></form>
+                    
                     <button type="submit">Eliminar Usuario</button>
-
+                
                 </div>
-
+            </form>
                 
             </article>
             <div class="line">

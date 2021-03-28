@@ -30,11 +30,11 @@ router.get('/:id', productController.detail);
 
 /* Edit Product*/
 router.get('/edit/:idProd', productController.editProd);
-router.put('/edit/:idProd', productController.saveEdit);
+router.put('/edit', productController.saveEdit);
 
 /* Delete Product*/
 router.get('/erase/:id', productController.toDelete);
-router.delete('/erase/:id', productController.delete);
+router.delete('/erase/:id/delete', productController.delete);
 
 /* Product Category */
 router.get('/category/:idCategory', productController.catList);

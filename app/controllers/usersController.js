@@ -28,10 +28,10 @@ const usersController = {
                        delete users[i].password;
                        req.session.user = users[i]; 
                        
-                      if (req.body.remember) {
+                    /*  if (req.body.remember) {
                         res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 2});
 
-                      }
+                      }*/
                            
                        
                        return res.redirect('profile');
@@ -39,7 +39,9 @@ const usersController = {
                }         
             }
     }else {
+        
         return res.render('login', {errors: errors.array()});
+        
     }
 },
     register: function(req, res){
@@ -52,6 +54,8 @@ const usersController = {
     sendUser: function(req, res){
         let errors = validationResult(req);        
         if(errors.isEmpty()){
+
+
             let userNew = {
             
                 id: users[users.length-1].id+1,           
@@ -108,7 +112,7 @@ const usersController = {
     },
     delete: function(req, res){
         let userToDelete = users.find(users => (users.id == req.params.id));
-        user = users.filter(users =>(users.id != userToDelete.id));
+        let user = users.filter(users =>(users.id != userToDelete.id));
         let userJson = JSON.stringify(user);
         fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
         res.redirect("/");

@@ -4,9 +4,14 @@ const multer = require('multer');
 const path = require('path');
 const { body, check } = require('express-validator')
 const usersController = require('../controllers/usersController');
+const fs = require('fs');
+const usersFilePath = path.join(__dirname, '../database/users.json');
+const user = fs.readFileSync(usersFilePath,{encoding: 'utf-8'}, 'w' );
+const users = JSON.parse(user);
 
 const guestMiddleware = require('../middlewares/guestMiddleware')
 const authMiddleware = require('../middlewares/authMiddleware');
+const e = require('express');
 
 
 
@@ -27,7 +32,14 @@ const upload = multer({ storage });
 const validateUser = [
     body('firstName').notEmpty().withMessage('Debes completar el campo con tu Nombre'),
     body('lastName').notEmpty().withMessage('Debes completar el campo con tu Apellido'),
-    body('email').isEmail().withMessage('Debes completar el campo con tu E-Mail'),
+    body('email').custom((value, { req }) => {       
+         let email = req.body.email;  
+         
+        if (users.find(users =>(users.email == email))){
+            throw new Error('El email esta en uso');
+        }       
+        return true;
+    }).isEmail().withMessage('Debes ingresar un correo valido'),      
     body('password').notEmpty().withMessage('Debes ingresar una contraseña'),
     body('image').custom((value, { req }) => {
         let file = req.file;
@@ -63,10 +75,10 @@ router.put('/edit/:idUser', usersController.saveUser);
 
 //Eliminar Usuario
 router.get('/delete/:id', usersController.userDelete);
-router.delete('/delete/:id', usersController.delete);
-
+router.delete('/delete/:id/erase', usersController.delete);
+// Perfil
 router.get('/profile', authMiddleware, usersController.profile);
-
+//logout
 router.get('/logout/', usersController.logout)
 
 module.exports = router;

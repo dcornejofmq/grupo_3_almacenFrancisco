@@ -1,9 +1,9 @@
 <header class="top-header">
     <div class="menu">
-      
-      
+      <% if (locals.isLogged) { %>
+        <img class="imgProfile" src= '/Img/users/<%= user.image %>'>
          
-                   
+        <% } %>              
 </div>
     <div>
       <a href="/"><img src="/Img/Logo_Almacen_Francisco_100x100.jpg" class="logo"></a>
@@ -30,9 +30,13 @@
       </div>
       
     </div>
+    <% if (locals.isLogged) { %>
+     
     
     <div class="icono2">
       <a href="/products/cart"><i class="fas fa-shopping-cart"></i></a>
       <h6>Carrito</h6>
     </div>
+
+    <% } %>
   </header>    

@@ -14,7 +14,7 @@
                 
             </div>
             
-            
+            <form method="POST" action="/products/erase/<%= prodToDel.id%>/delete?_method=DELETE">
             
             <article class="art">
                 <div class="item">
@@ -26,11 +26,11 @@
                 </div>
                 
                 <div class="deleteItem">
-                    <form method="POST" action="/products/delete/:id?_method=DELETE"></form>
+                    </form>
                     <button type="submit">Eliminar Producto</button>
 
                 </div>
-
+            </form>
                 
             </article>
             <div class="line">

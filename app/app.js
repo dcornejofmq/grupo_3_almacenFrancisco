@@ -9,7 +9,7 @@ var logger = require('morgan');
 var session = require('express-session');
 
 //Middleware require
-
+const loginMiddleware = require('./middlewares/loginMiddleware');
 var app = express();
 
 // Seteo la ubicación de los archivos que usaremos en la aplicación - Dir: Public 
@@ -29,7 +29,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //app.use( logMiddleware( req, res, next));
-
+app.use(loginMiddleware);
 // Cargo los routers 
 const indexRouter    = require('./routes/index');
 const usersRouter    = require('./routes/users');
