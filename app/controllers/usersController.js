@@ -1,16 +1,6 @@
-const fs = require('fs');
-const path = require('path');
 const bcrypt = require('bcrypt');
 const { validationResult } = require('express-validator');
-
-
-
-const usersFilePath = path.join(__dirname, '../database/users.json');
-const user = fs.readFileSync(usersFilePath,{encoding: 'utf-8'}, 'w' );
-const users = JSON.parse(user);
- 
-const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-
+const db = require("../database/models");
 
 
 const usersController = {
@@ -54,24 +44,20 @@ const usersController = {
     sendUser: function(req, res){
         let errors = validationResult(req);        
         if(errors.isEmpty()){
+            db.User.create({
 
-
-            let userNew = {
-            
-                id: users[users.length-1].id+1,           
+                        
                 firstName: req.body.firstName,
                 lastName: req.body.lastName,
                 email: req.body.email,            
                 password: bcrypt.hashSync(req.body.password, 10),
                 image: req.file.filename
                 
-            }
-            
-            users.push(userNew)  
-            console.log(users)      
-            let userJson = JSON.stringify(users);        
-            fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
-            return res.redirect('/');
+                })
+           
+            res.redirect('/');
+
+        
         } else {
             return res.render('registerUser', { errors: errors.array(), 
             old: req.body }); 
@@ -81,41 +67,45 @@ const usersController = {
         
     },
     editUser: function(req, res){
-        let idUser = req.params.idUser;
-        let userToEdit = users[idUser];
-        
-        return res.render('editUser', {userToEdit: userToEdit});
-    },    
-    saveUser: function(req, res) {    
-        let userEdit = users.find(users =>(users.id == req.params.id));
-
-        let updateUser = users.map(users => {
-            if(users.id == usersEdit.id){
-                users.firstName = req.body.firstName;
-                users.lastName = req.body.lastName;
-                users.email = req.body.category;
-                users.password = req.body.password;
-                users.image = req.body.image
-            }
-            return users;
+        db.User.findByPk(req.params.id)
+        .then(function(userToEdit) {
+            res.render('editUser', {userToEdit: userToEdit}); 
         })
-        let userJson = JSON.stringify(updateProd);
-        
-        fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
+ 
+    },    
+    saveUser: function(req, res) { 
+        db.User.update({
 
+            firstName: req.body.firstName,
+            lastName: req.body.lastName,
+            email: req.body.email,            
+            password: bcrypt.hashSync(req.body.password, 10)
+        },{
+                where: {
+                   id: req.params.id
+                }
+        })
+
+        
         res.redirect('/')
     },
     userDelete:function(req, res){
-        userToDel = users.find(users => (users.id == req.params.id));
+        db.User.findByPk(req.params.id)
+        .then(function(userToDel) {
+            res.render('deleteUser', {userToDel: userToDel}); 
+        })
+
         
-        return res.render('deleteUser', {userToDel: userToDel});
     },
     delete: function(req, res){
-        let userToDelete = users.find(users => (users.id == req.params.id));
-        let user = users.filter(users =>(users.id != userToDelete.id));
-        let userJson = JSON.stringify(user);
-        fs.writeFileSync(path.join(__dirname, '../database/users.json'), userJson);
+        db.User.destroy({
+            where: {
+                id: req.params.id
+            }
+        })
+
         res.redirect("/");
+        
     },
     profile: function (req, res) {
         

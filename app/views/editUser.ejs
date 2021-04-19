@@ -6,7 +6,7 @@
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Creacion de perfil</h2>
-            <form action="/users/edit?_method=PUT" method="POST">
+            <form action="/users/edit/<%= userToEdit.id %>" method="POST">
                 <input type="text" name="firstName" id="firstName" value="<%= userToEdit.firstName %> " >
 
                 <input type="text" name="lastName" id="lastName" value="<%= userToEdit.lastName %> " >
@@ -14,10 +14,9 @@
                 <input type="email" name="email" id="email" value="<%= userToEdit.email %> ">
                  
                 <input id="pass" type="password" name="password" id="password" value="<%= userToEdit.password %> " >
-
-                <label for="photo">Foto de Perfil</label>
-                <input type="file"  accept="image/*" name="image" id="image">  
-
+                    
+                
+                
                     <button class="btn" type="submit">Editar Perfil</button>
 
 

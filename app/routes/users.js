@@ -70,12 +70,12 @@ router.get('/create', usersController.userReg);
 router.post('/create', upload.single('image'), validateUser,  usersController.sendUser);
 
 //Editar Usuario
-router.get('/edit/:idUser', usersController.editUser);
-router.put('/edit/:idUser', usersController.saveUser);
+router.get('/edit/:id', usersController.editUser);
+router.post('/edit/:id', usersController.saveUser);
 
 //Eliminar Usuario
 router.get('/delete/:id', usersController.userDelete);
-router.delete('/delete/:id/erase', usersController.delete);
+router.post('/delete/:id', usersController.delete);
 // Perfil
 router.get('/profile', authMiddleware, usersController.profile);
 //logout
