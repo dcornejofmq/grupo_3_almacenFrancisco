@@ -21,7 +21,9 @@
         <button class="dropbtn"><i class="fas fa-bars"></i><h6 id="content">Menu</h6></button>
         <div class="dropdown-content">
           <a href="/users/login">Iniciar Sesion</a>
+          <% if (locals.isLogged) { %>
           <a href="/users/profile">Perfil</a>
+          <% } %>
           <a href="/users/logout">Cerrar Sesion</a>
         </div>
     </div>

@@ -13,21 +13,24 @@ const usersController = {
         let errors = validationResult(req);
         
         if (errors.isEmpty()){
-           for (let i = 0; i < users.length; i++) {
-               if (users[i].email == req.body.email && bcrypt.compareSync(req.body.password, users[i].password)) {
-                       delete users[i].password;
-                       req.session.user = users[i]; 
-                       
-                    /*  if (req.body.remember) {
-                        res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 2});
+          db.User.findOne({ where: { email: req.body.email } })
+          .then((resultado) =>{
+            if (bcrypt.compareSync(req.body.password, resultado.password)) {
+                delete resultado.password;
+                req.session.user = resultado; 
+                
+             /*  if (req.body.remember) {
+                 res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 2});
 
-                      }*/
-                           
-                       
-                       return res.redirect('profile');
-                   
-               }         
-            }
+               }*/
+                    
+                
+                return res.redirect('profile');
+            
+        }
+          })
+                        
+        
     }else {
         
         return res.render('login', {errors: errors.array()});
