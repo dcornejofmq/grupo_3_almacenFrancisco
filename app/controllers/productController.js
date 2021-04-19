@@ -1,90 +1,83 @@
-const fs = require('fs');
-const path = require('path');
 
-const productsFilePath = path.join(__dirname, '../database/products.json');
-const product = fs.readFileSync(productsFilePath,{encoding: 'utf-8'}, 'w' );
-const products = JSON.parse(product);
-
-const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-
+const db = require("../database/models");
 
 const productController = {
 
-    list: (req, res) => {
-        enviarVista = products;         
+    list: function (req, res) {
+        db.Product.findAll()        
+         .then(function(enviarVista){
+             console.log(enviarVista);
+            res.render('productList',{enviarVista: enviarVista} );
+         });
         
-        return res.render('productList',{enviarVista: enviarVista} );
         
     },
     create: function(req, res) {
         return res.render('createProduct')
      },
      save: function(req, res){
-         
-        let productNew = {
-            
-            id: products[products.length-1].id+1,            
+            db.Product.create({
+
+                        
             nameProd: req.body.nameProd,
             description: req.body.description,
             category: req.body.category,            
             price: req.body.price,
             image: req.file.filename
             
-        }
-        console.log(products);
-        products.push(productNew)
-        console.log(productNew);
-        console.log(products);
-        let productJson = JSON.stringify(products);
-        console.log(productJson);
-        fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
+            })
+       
         return res.redirect('/');
     },
 
     detail: function(req, res){
+        db.Product.findByPk(req.params.id)
         
-        prodFound = products.find(products => (products.id == req.params.id));
-        
-        return res.render('productDetail', {prodFound: prodFound});
+        .then(function(prodFound){
+            res.render('productDetail', {prodFound:prodFound});
+        }); 
     },
     cart: function(req, res){
         return res.render('productCart')
     },   
     editProd: function(req, res){
-        let idProd = req.params.idProd;
-        let prodToEdit = products[idProd];
+        db.Product.findByPk(req.params.id)
         
-        return res.render('editProduct', {prodToEdit: prodToEdit});
+        .then(function(prodToEdit){
+            res.render('editProduct', {prodToEdit:prodToEdit});
+        });
     },    
     saveEdit: function(req, res) {    
-        let productEdit = products.find(products =>(products.id == req.params.id));
-
-        let updateProd = products.map(products => {
-            if(products.id == productEdit.id){
-                products.nameProd = req.body.nameProd;
-                products.description = req.body.description;
-                products.category = req.body.category;
-                products.price = req.body.price;
-            }
-            return products;
-        })
-        let productJson = JSON.stringify(updateProd);
-        
-        fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
+        db.Product.update({
+                        
+            nameProd: req.body.nameProd,
+            description: req.body.description,
+            category: req.body.category,            
+            price: req.body.price,
+            
+            
+            },{
+                where: {
+                   id: req.params.id
+                }
+            });    
 
         res.redirect('/')
     },
     toDelete:function(req, res){
-        prodToDel = products.find(products => (products.id == req.params.id));
+        db.Product.findByPk(req.params.id)
         
-        return res.render('deleteProduct', {prodToDel: prodToDel});
+        .then(function(prodToDel){
+            res.render('deleteProduct', {prodToDel:prodToDel});
+        });
     },
     delete: function(req, res){
-        let prodToDelete = products.find(products => (products.id == req.params.id));
-       
-        produ = products.filter(products =>(products.id != prodToDelete.id));
-        let productJson = JSON.stringify(produ);
-        fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
+        db.Product.destroy({
+            where: {
+                id: req.params.id
+            }
+        })
+
         res.redirect("/");
     },
     catList: function (req, res) {

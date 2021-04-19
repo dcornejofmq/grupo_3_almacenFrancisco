@@ -29,12 +29,12 @@ router.post('/create', upload.single('image'), productController.save);
 router.get('/:id', productController.detail);
 
 /* Edit Product*/
-router.get('/edit/:idProd', productController.editProd);
-router.put('/edit', productController.saveEdit);
+router.get('/edit/:id', productController.editProd);
+router.post('/edit/:id', productController.saveEdit);
 
 /* Delete Product*/
 router.get('/erase/:id', productController.toDelete);
-router.delete('/erase/:id/delete', productController.delete);
+router.post('/erase/:id', productController.delete);
 
 /* Product Category */
 router.get('/category/:idCategory', productController.catList);
