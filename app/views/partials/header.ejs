@@ -1,44 +1,43 @@
 <header class="top-header">
-    <div class="menu">
-      <% if (locals.isLogged) { %>
-        <img class="imgProfile" src= '/Img/users/<%= user.image %>'>
-         
-        <% } %>              
+  <div class="menu">
+                 
 </div>
-    <div>
-      <a href="/"><img src="/Img/Logo_Almacen_Francisco_100x100.jpg" class="logo"></a>
-    </div>
-    <div class="search">
-      <form class="example" method="GET" action="/product/id">
-        <input type="text" placeholder="Que estas buscando.." name="search">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-    
-    <div class="icono">
-      <div class="dropdown">
-        
-        <button class="dropbtn"><i class="fas fa-bars"></i><h6 id="content">Menu</h6></button>
-        <div class="dropdown-content">
-          <a href="/users/login">Iniciar Sesion</a>
-          <% if (locals.isLogged) { %>
-          <a href="/users/profile">Perfil</a>
+  <div>
+    <a href="/"><img src="/Img/Logo_Almacen_Francisco_100x100.jpg" class="logo"></a>
+  </div>
+  <div class="search">
+    <form class="example" method="GET" action="/product/id">
+      <input type="text" placeholder="Que estas buscando.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+  
+  <div class="icono">
+    <div class="dropdown">
+      
+      <button class="dropbtn"><i class="fas fa-bars"></i><h6 id="content">Menu</h6></button>
+      <div class="dropdown-content">
+        <a href="/users/login">Iniciar Sesion</a>
+        <% if (locals.isLogged) { %>
+        <a href="/users/profile">Perfil</a>
+        <% } %>
+        <% if (locals.adminLogged) { %>
+          <a href="/products">Productos</a>
           <% } %>
-          <a href="/users/logout">Cerrar Sesion</a>
-        </div>
-    </div>
-    <div class="icono">
-      
+        <a href="/users/logout">Cerrar Sesion</a>
       </div>
-      
-    </div>
-    <% if (locals.isLogged) { %>
-     
+  </div>
+  <div class="icono">
     
-    <div class="icono2">
-      <a href="/products/cart"><i class="fas fa-shopping-cart"></i></a>
-      <h6>Carrito</h6>
     </div>
-
-    <% } %>
-  </header>    
+    
+  </div>
+  <% if (locals.isLogged) { %>
+   
+  
+  <div class="icono2">
+    <a href="/products/cart"><i class="fas fa-shopping-cart"></i></a>
+    <h6>Carrito</h6>
+  </div>
+  <% } %>
+</header>    

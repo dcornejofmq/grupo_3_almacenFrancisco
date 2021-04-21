@@ -15,7 +15,11 @@
 				<div class="emailProfile">E-Mail: <%= user.email %></div>
 			</div>
 		</div>
+		<div class='edit'>
+			<a href="/users/edit/<%= user.id %>"><button class="btn">Editar Usuario</button></a>
+		</div>
 	</div>
+
 	<!-- //Container -->
 	
 	<%- include('partials/footer'); %>

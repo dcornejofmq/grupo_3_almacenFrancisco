@@ -16,10 +16,14 @@ const usersController = {
           db.User.findOne({ where: { email: req.body.email } })
           .then((resultado) =>{
             if (bcrypt.compareSync(req.body.password, resultado.password)) {
-                delete resultado.password;
-                req.session.user = resultado; 
-                
-             /*  if (req.body.remember) {
+              //  delete resultado.password;
+                req.session.user = resultado;
+               // console.log(req.session.user);
+                if(req.session.user.email == "admin@af.com"){
+                    req.session.admin  = req.session.user.email;
+                    console.log(req.session.admin);
+                }
+             /* if (req.body.remember) {
                  res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 2});
 
                }*/
@@ -29,7 +33,9 @@ const usersController = {
             
         }
           })
-                        
+          .catch(function (errors){
+
+          });             
         
     }else {
         

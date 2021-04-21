@@ -5,7 +5,12 @@
     <%- include('./partials/header.ejs') %>
     <main class="cart">
         
-        <h4>Listado de Productos</h4>      
+        <h4>Listado de Productos</h4>
+        <% if (locals.adminLogged) { %>
+            <div class="buttons">
+            <a href="/products/create"><button class="btn">agregar Producto</button></a>            
+            </div>
+            <% } %>      
         
         
         <div class="cartform">
@@ -28,9 +33,14 @@
                 <div class="item-4">
                     <h4>Precio</h4>
                         <textarea name="price" id="" cols="5" rows="1"><%= enviarVista.price %></textarea>
-
+                    
                 </div>
-                
+                <% if (locals.adminLogged) { %>
+                <div class="buttons">
+                <a href="/products/edit/<%= enviarVista.id %>"><button class="btn">Editar Producto</button></a>
+                <a href="/products/erase/<%= enviarVista.id %>"><button class="btn">Eliminar Producto</button></a>
+                </div>
+                <% } %>
             </article>
             <div class="line">
                 

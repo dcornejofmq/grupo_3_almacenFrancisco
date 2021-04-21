@@ -289,6 +289,10 @@ footer{
   margin-left: 20%;
 
 }
+.edit{
+  text-align: center;
+  padding: 2%;
+}
 @media (min-width: 768px){
 header div{
   margin: auto;
@@ -316,6 +320,9 @@ font-size: small;
   
   margin-left: 0%;
 
+}
+.edit{
+  text-align: end;
 }
 }
 @media (min-width: 1200px){
@@ -367,5 +374,8 @@ footer article{
 .emailProfile{
   text-align: center;
     font-size: x-large;
+}
+.edit{
+  padding: 13%;
 }
 }

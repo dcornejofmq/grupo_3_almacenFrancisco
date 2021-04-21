@@ -11,7 +11,7 @@ const users = JSON.parse(user);
 
 const guestMiddleware = require('../middlewares/guestMiddleware')
 const authMiddleware = require('../middlewares/authMiddleware');
-const e = require('express');
+
 
 
 
@@ -43,7 +43,7 @@ const validateUser = [
     body('password').notEmpty().withMessage('Debes ingresar una contraseña'),
     body('image').custom((value, { req }) => {
         let file = req.file;
-        let acceptedExtensions = ['.JPG', '.PNG', 'GIF']
+        let acceptedExtensions = ['.JPG', '.PNG', '.GIF','.jpg','.png','.gif']
         if (!file){
             throw new Error('Tienes que adjuntar una imagen');
         } else {

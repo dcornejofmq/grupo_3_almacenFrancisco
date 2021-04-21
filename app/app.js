@@ -7,9 +7,10 @@ var methodOverride = require( 'method-override');
 var multer = require( 'multer');
 var logger = require('morgan');
 var session = require('express-session');
-
 //Middleware require
 const loginMiddleware = require('./middlewares/loginMiddleware');
+const adminMiddleware = require('./middlewares/adminMiddleware'); 
+
 var app = express();
 
 // Seteo la ubicación de los archivos que usaremos en la aplicación - Dir: Public 
@@ -24,17 +25,20 @@ app.use(cookies());
 app.use(methodOverride( "_method"));
 //Aplicacion de Sessions
 app.use(session({secret: 'hola123', resave: false, saveUninitialized: false}));
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //app.use( logMiddleware( req, res, next));
 app.use(loginMiddleware);
+app.use(adminMiddleware);
 // Cargo los routers 
 const indexRouter    = require('./routes/index');
 const usersRouter    = require('./routes/users');
 const productsRouter = require('./routes/products');
-const usersController = require('./controllers/usersController');
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

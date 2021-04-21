@@ -27,7 +27,7 @@ const productController = {
             
             })
        
-        return res.redirect('/');
+        return res.redirect('/products');
     },
 
     detail: function(req, res){
@@ -81,10 +81,16 @@ const productController = {
         res.redirect("/");
     },
     catList: function (req, res) {
-        let enviarVista = products.filter(products => (products.category == req.params.idCategory))
+       
+        db.Product.findAll({
+            where:{
+                category: req.params.idCategory
+            }
+        }).then(enviarVista =>{
+            res.render('productList',{enviarVista: enviarVista});
+        })
         
         
-       return res.render('productList',{enviarVista: enviarVista}); 
     }
 }
 
