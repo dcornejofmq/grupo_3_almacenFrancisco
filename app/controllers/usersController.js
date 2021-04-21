@@ -113,7 +113,7 @@ const usersController = {
             }
         })
 
-        res.redirect("/");
+        res.redirect("/users/logout/");
         
     },
     profile: function (req, res) {

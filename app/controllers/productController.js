@@ -62,7 +62,7 @@ const productController = {
                 }
             });    
 
-        res.redirect('/')
+        res.redirect('/products')
     },
     toDelete:function(req, res){
         db.Product.findByPk(req.params.id)
