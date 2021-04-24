@@ -9,7 +9,7 @@
       <h1 class="title"><strong>Bienvenido</strong></h1>
       <article>      
        
-        <form action="/users/login" class="cont-form" method = "post">
+        <form action="/users/login" class="cont-form" method = "post" id="log">
           <div class="campo">
             <% if (locals.errors) {
                 errors.forEach(error => { %>
@@ -33,7 +33,7 @@
         <a href="/users/create"><h8 class="h8">Si aun no tenes usuario lo podes crear Aqui!!</h8></a>
       </div>
   </section>
-    
+  <script src="/js/login.js"></script> 
     <%- include('./partials/footer.ejs') %>
 </body>
 </html>

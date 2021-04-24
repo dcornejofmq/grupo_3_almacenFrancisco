@@ -25,8 +25,7 @@
             alert('Debes completar el campo Apellido');
         }
         if(emailField.value == ''){
-            alert('Debes completar el campo Email');
-        
+            alert('Debes completar el campo Email');        
         }
         if(passwordField.value == ''){
             alert('Debes completar el campo Password');

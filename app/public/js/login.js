@@ -1,9 +1,17 @@
-// Get the modal
-var modal = document.getElementById('id01');
+const form = document.querySelector('#log');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+form.addEventListener('submit', function(event){
+  event.preventDefault();       
+  
+  const emailField = this.querySelector('#email');
+  const passwordField = this.querySelector('#password');
+  
+  if(emailField.value == ''){
+      alert('Debes completar el campo Email');        
   }
-}
+  if(passwordField.value == ''){
+      alert('Debes completar el campo Password');
+  }
+  
+   
+});
