@@ -6,11 +6,11 @@
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Carga de Producto</h2>
-            <form action="/products/create" method="POST" enctype="multipart/form-data"> 
-                <input type="text" name="nameProd" id="nameProd" placeholder="Nombre de producto" required>
-                <input type="text" name="description" id="description" placeholder="Descripcion" required>
+            <form action="/products/create" method="POST" enctype="multipart/form-data" id="product"> 
+                <input type="text" name="nameProd" id="nameProd" placeholder="Nombre de producto" >
+                <input type="text" name="description" id="description" placeholder="Descripcion" >
                 
-                <select type="text" name="category" id="category" required>
+                <select type="text" name="category" id="category" >
                     <option>Seleccione Categoria</option>
                     <option value="despensa">Despensa</option>
                     <option value="bebidas">Bebidas</option>
@@ -20,7 +20,7 @@
                     <option value="limpieza">Limpieza</option>
 
                 
-                <input type="text" name="price" id="price" placeholder="Precio" required>
+                <input type="text" name="price" id="price" placeholder="Precio">
                 <label for="photo">Foto del Producto</label>
                 <input type="file"  accept="image/*" name="image" id="image">  
 
@@ -31,7 +31,7 @@
             </form>
            
         </main>
-
+        <script src="/js/productValidator.js"></script> 
     <%- include('./partials/footer.ejs') %>
 </body>
 

@@ -43,12 +43,8 @@ const usersController = {
         
     }
 },
-    register: function(req, res){
-       
-        return res.render('register');
-    },
     userReg: function(req, res){
-        res.render('registerUser')
+        res.render('register')
     },
     sendUser: function(req, res){
         let errors = validationResult(req);        

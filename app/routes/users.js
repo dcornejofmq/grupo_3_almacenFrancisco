@@ -31,7 +31,9 @@ const upload = multer({ storage });
 
 const validateUser = [
     body('firstName').notEmpty().withMessage('Debes completar el campo con tu Nombre'),
+    body('firstName').isLength({min: 2}).withMessage('Tu nombre debe tener mas de 2 caracteres'),
     body('lastName').notEmpty().withMessage('Debes completar el campo con tu Apellido'),
+    body('lasttName').isLength({min: 2}).withMessage('Tu apellido debe tener mas de 2 caracteres'),
     body('email').custom((value, { req }) => {       
          let email = req.body.email;  
          
@@ -41,15 +43,16 @@ const validateUser = [
         return true;
     }).isEmail().withMessage('Debes ingresar un correo valido'),      
     body('password').notEmpty().withMessage('Debes ingresar una contraseña'),
+    body('password').isLength({min: 8}).withMessage('Tu contraseña debe tener mas de 8 caracteres'),
     body('image').custom((value, { req }) => {
         let file = req.file;
-        let acceptedExtensions = ['.JPG', '.PNG', '.GIF','.jpg','.png','.gif']
+        let acceptedExtensions = ['.JPG', '.JPEG', '.PNG', '.GIF','.jpg','.png','.gif', '.jpeg']
         if (!file){
             throw new Error('Tienes que adjuntar una imagen');
         } else {
             let fileExtension = path.extname(file.originalname);
             if(!acceptedExtensions.includes(fileExtension)){
-                throw new Error('Las extensiones permitidas son JPG, PNG y GIF');
+                throw new Error('Las extensiones permitidas son JPG, JPEG, PNG y GIF');
             }
         }
         return true
@@ -63,7 +66,7 @@ const validateLogin = [
 router.get('/login', guestMiddleware, usersController.login);
 router.post('/login', validateLogin,  usersController.logon);
 
-router.get('/register', guestMiddleware, usersController.register);
+
 
 //Crear Usuario
 router.get('/create', usersController.userReg);

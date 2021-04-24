@@ -6,6 +6,7 @@
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
             <h2>Creacion de perfil</h2>
+            
             <div class="campo">
             <% if (locals.errors) {
                 errors.forEach(error => { %>
@@ -13,8 +14,9 @@
                     <%  })
                 }
                 %>
-            </div>   
-            <form action="/users/create" method="POST" enctype="multipart/form-data">
+            </div> 
+            
+            <form action="/users/create" method="POST" enctype="multipart/form-data" id="register">
                 
                 <input type="text" name="firstName" id="firstName" placeholder="Nombre" value="<%= locals.old && old.firstName ? old.firstName : ''%>">
                
@@ -34,7 +36,7 @@
             </form>
            
         </main>
-
+        <script src= "/js/validator.js"></script>  
     <%- include('./partials/footer.ejs') %>
 </body>
 
