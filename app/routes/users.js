@@ -64,7 +64,7 @@ const validateLogin = [
 ];
 
 router.get('/login', guestMiddleware, usersController.login);
-router.post('/login', validateLogin,  usersController.logon);
+router.post('/login', validateLogin,   usersController.logon);
 
 
 

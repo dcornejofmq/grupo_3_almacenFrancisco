@@ -9,14 +9,14 @@
       <h1 class="title"><strong>Bienvenido</strong></h1>
       <article>      
        
-        <form action="/users/login" class="cont-form" method = "post" id="log">
+        <form action="/users/login" class="cont-form" method = "POST" id="log">
           <div class="campo">
             <% if (locals.errors) {
-                errors.forEach(error => { %>
-                    <h7> <%= error.msg %> </h7><br>
-                    <%  })
-                }
-                %>
+              errors.forEach(error => { %>
+                  <h7> <%= error.msg %> </h7><br>
+                  <%  })
+              }
+              %>
             </div>
      <input type="email" class="form-input ancho95" name="email" id="email" placeholder = "Email">
      <input type="password" class="form-input ancho" name="password" id="password" placeholder = "Contraseña">
