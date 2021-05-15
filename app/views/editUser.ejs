@@ -5,7 +5,7 @@
 <body>
     <%- include('./partials/header.ejs') %>
         <main class="formProduct">
-            <h2>Creacion de perfil</h2>
+            <h2>Editar perfil</h2>
             <form action="/users/edit/<%= userToEdit.id %>" method="POST">
                 <input type="text" name="firstName" id="firstName" value="<%= userToEdit.firstName %> " >
 
@@ -13,7 +13,7 @@
                            
                 <input type="email" name="email" id="email" value="<%= userToEdit.email %> ">
                  
-                <input id="pass" type="password" name="password" id="password" value="<%= userToEdit.password %> " >
+                <input id="pass" type="password" name="password" id="password" placeholder="Contraseña" >
                     
                 
                 
@@ -24,7 +24,7 @@
             </form>
            
         </main>
-
+        <script src="/js/validator.js"></script> 
     <%- include('./partials/footer.ejs') %>
 </body>
 

@@ -33,7 +33,7 @@ const validateUser = [
     body('firstName').notEmpty().withMessage('Debes completar el campo con tu Nombre'),
     body('firstName').isLength({min: 2}).withMessage('Tu nombre debe tener mas de 2 caracteres'),
     body('lastName').notEmpty().withMessage('Debes completar el campo con tu Apellido'),
-    body('lasttName').isLength({min: 2}).withMessage('Tu apellido debe tener mas de 2 caracteres'),
+    body('lastName').isLength({min: 2}).withMessage('Tu apellido debe tener mas de 2 caracteres'),
     body('email').custom((value, { req }) => {       
          let email = req.body.email;  
          
