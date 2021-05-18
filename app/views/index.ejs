@@ -3,108 +3,83 @@
   <%- include('./partials/head.ejs') %> 
   
 <body>
-    <%- include('./partials/header.ejs') %>
-    <main>
-      <section class="carrusel">
-        <h3>PROMOCIONES DE LA SEMANA</h3>
-
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  
-  <img src="Img/descuento1.JPG" style="width:100%">
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  
-  <img src="Img/descuento2.JPG" style="width:100%">
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  
-  <img src="Img/descuento3.JPG" style="width:100%">
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  
-  <img src="Img/descuento4.JPG" style="width:100%">
-  <div class="text"></div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span>
-  <span class="dot"></span> 
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-      </section>
-
-
-      <section class="product">
-        <h3>SECCIONES</h3>
-        <article>
-          <a href="/products/category/despensa"><img src="Img/despensa.JPG" alt="despensa" class="product_img" ></a>
-               
-        </article>
-        <article>
-          <a href="/products/category/bebidas"><img src="Img/bebidas.JPG" alt="bebidas" class="product_img"></a>
-               
-        </article>
-
-        <article>
-          <a href="/products/category/mascotas"><img src="Img/mascotas.JPG" alt="mascotas" class="product_img"></a>
-                
-        </article>
-
-        <article>
-          <a href="/products/category/bebes"><img src="Img/bebes.JPG" alt="bebes" class="product_img"></a>
-               
-        </article>
-        <article>
-          <a href="/products/category/cuiper"><img src="Img/personal.JPG" alt="personal" class="product_img"></a>
-               
-        </article>
-        <article>
-          <a href="/products/category/limpieza"><img src="Img/limpieza.JPG" alt="polenta" class="product_img"></a>
-               
-        </article>
-      </section>
-      <section>
-        <div class="banner">
+  <%- include('./partials/header.ejs') %>
+  <main>
+    <section class="carrusel">
+      <h3>PROMOCIONES DE LA SEMANA</h3>
+      <div class="slideshow-container">
+        <!-- <div class="mySlides fade"> -->
+        <div class="mySlides">  
+          <!--  <img src="Img/descuento1.JPG" style="width:100%"> -->
+          <img src="Img/descuento1.JPG" >
+          <!--  <div class="text"></div> -->
+        </div>  
+        <div class="mySlides">
+          <img src="Img/descuento2.JPG" >          
+        </div>
+        <div class="mySlides">
+          <img src="Img/descuento3.JPG">
+        </div>
+        <div class="mySlides">
+          <img src="Img/descuento4.JPG">
+        </div>
+      </div>  
+      <!--  <br> -->
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span> 
+      </div>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots   = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "flex";  
+          //slides[slideIndex-1].style.display = "inline";            
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      </script>
+    </section>
+    <section class="product">
+      <h3>SECCIONES</h3>
+      <article>
+        <a href="/products/category/despensa"><img src="Img/despensa.JPG" alt="despensa" class="product_img" ></a>               
+      </article>
+      <article>
+        <a href="/products/category/bebidas"><img src="Img/bebidas.JPG" alt="bebidas" class="product_img"></a>               
+      </article>
+      <article>
+        <a href="/products/category/mascotas"><img src="Img/mascotas.JPG" alt="mascotas" class="product_img"></a>
+      </article>
+      <article>
+        <a href="/products/category/bebes"><img src="Img/bebes.JPG" alt="bebes" class="product_img"></a>               
+      </article>
+      <article>
+        <a href="/products/category/cuiper"><img src="Img/personal.JPG" alt="personal" class="product_img"></a>               
+      </article>
+      <article>
+        <a href="/products/category/limpieza"><img src="Img/limpieza.JPG" alt="polenta" class="product_img"></a>               
+      </article>
+    </section>
+    <section>
+      <div class="banner">
         <img src="Img/envios.png" alt="envios">
       </div>
-      </section>
-    </main>
-         
-    <%- include('./partials/footer.ejs') %>
+    </section>
+  </main>
+  <%- include('./partials/footer.ejs') %>
 </body>
 </html>
