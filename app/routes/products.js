@@ -4,7 +4,6 @@ const multer = require('multer');
 const path = require('path');
 const productController = require('../controllers/productController');
 
-
 const storage = multer.diskStorage({
     destination: (req, File, cb) => {
         cb(null, path.join(__dirname, '../public/Img/productos png'));
@@ -40,8 +39,11 @@ router.post('/erase/:id', productController.delete);
 router.get('/category/:idCategory', productController.catList);
 
 
+/* Product Category */
+/*router.get('/buscarTexto/', productController.buscarTextoBarra);*/
 
+router.get('/buscarTexto/textoIngresado', productController.buscarTextoIngresado);
 
-
+/*router.get('/buscarTexto/:idTexto', productController.buscarTextoConId);*/
 
 module.exports = router;
