@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;   
+  box-sizing: border-box;  
   font-family: 'Roboto';
 }
 body{
@@ -71,6 +71,7 @@ form.example button {
 a {
   color: rgb(219, 219, 219);
 }
+
 .carrusel{
   padding: 0px 15px;
 
@@ -245,9 +246,16 @@ footer article{
 display: none;
 }
 .banner{
-  padding-top: 5%;
-  /*margin: 5%;*/
-}
+  
+  display: block;
+  }
+
+.banner img{
+    width: 80%;
+    margin-left: 10%;
+    }
+
+
 footer{
   
 }
