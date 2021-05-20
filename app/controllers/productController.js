@@ -32,7 +32,6 @@ const productController = {
     },
     cart: function(req, res){
         return res.render('productCart')
-
         
     },   
     editProd: function(req, res){
