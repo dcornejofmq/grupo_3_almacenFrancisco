@@ -3,12 +3,10 @@
   font-family: 'Roboto';
 }
 body{
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(219, 219, 219);dor
   margin: 0%;
   
 }
-
-
 
 .top-header{
   background-color: rgb(9, 72, 153) ;
@@ -84,15 +82,41 @@ main section h3{
 }
 /* Carrusel */
 
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
 /* Slideshow container */
 .slideshow-container {
-max-width: 1000px;
-position: relative;
-margin: auto;
+  /*max-width: 1000px;*/
+  display: flex;
+  max-width: 100%;
+  /*position: relative; 
+  position: flex;*/
+  margin: auto;
+  height: 400px;
+  /*align-items: center;
+  justify-content: center;*/
+  margin:0 auto;
 }
+
+.mySlides {display: none;
+  
+  /*
+  display: block;
+  max-width: 100%;
+  position: relative;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  /*width: 70%; 
+  height: 500px; */
+}
+.mySlides img {
+
+  height: auto;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%
+  
+  }
+
+img {vertical-align: middle;}
 
 /* Caption text */
 .text {
@@ -118,7 +142,7 @@ top: 0;
 .dot {
 height: 15px;
 width: 15px;
-margin: 0 2px;
+margin: 5px 2px;
 background-color: #bbb;
 border-radius: 50%;
 display: inline-block;
@@ -140,8 +164,6 @@ animation-duration: 1.5s;
 .record{
   margin-left: 10%;
 }
-
-
 
 @-webkit-keyframes fade {
 from {opacity: .4} 
@@ -173,7 +195,6 @@ main section h3{
 
 }
 
-
 main section article{
  
   margin: 10px 20px;
@@ -196,8 +217,6 @@ main section article:hover{
 main section article img{
   width: 100%;
 }
-
-
 
 main section div img{
 width: 100%;
@@ -226,8 +245,8 @@ footer article{
 display: none;
 }
 .banner{
-  padding-top: 10%;
-  margin: 5%;
+  padding-top: 5%;
+  /*margin: 5%;*/
 }
 footer{
   

@@ -2,10 +2,7 @@ const bcrypt = require('bcrypt');
 const { validationResult } = require('express-validator');
 const db = require("../database/models");
 
-
 const usersController = {
-
-    
     login: function(req, res){        
         return res.render('login');
     },
@@ -13,8 +10,8 @@ const usersController = {
         let errors = validationResult(req);
         
         if (errors.isEmpty()){
-          db.User.findOne({ where: { email: req.body.email } })
-          .then((resultado) =>{
+            db.User.findOne({ where: { email: req.body.email } })
+            .then((resultado) =>{
             if (bcrypt.compareSync(req.body.password, resultado.password)) {
               //  delete resultado.password;
                 req.session.user = resultado;
@@ -23,24 +20,19 @@ const usersController = {
                     req.session.admin  = req.session.user.email;
                     console.log(req.session.admin);
                 }
-             /* if (req.body.remember) {
+            /* if (req.body.remember) {
                  res.cookie('userEmail', req.body.email, {maxAge: (1000 * 60) * 2});
-
-               }*/
-                    
-                
-                return res.redirect('profile');
-            
+            }*/
+            return res.redirect('profile');
         }
-          })
-          .catch(function (errors){
+        })
+        .catch(function (errors){
 
-          });             
+        });             
         
     }else {
         
         return res.render('login', {errors: errors.array()});
-        
     }
 },
     userReg: function(req, res){
@@ -50,26 +42,18 @@ const usersController = {
         let errors = validationResult(req);        
         if(errors.isEmpty()){
             db.User.create({
-
-                        
                 firstName: req.body.firstName,
                 lastName: req.body.lastName,
                 email: req.body.email,            
                 password: bcrypt.hashSync(req.body.password, 10),
                 image: req.file.filename
-                
                 })
-           
             res.redirect('/');
-
         
         } else {
             return res.render('registerUser', { errors: errors.array(), 
             old: req.body }); 
-           
         }
-      
-        
     },
     editUser: function(req, res){
         db.User.findByPk(req.params.id)
@@ -87,11 +71,9 @@ const usersController = {
             password: bcrypt.hashSync(req.body.password, 10)
         },{
                 where: {
-                   id: req.params.id
+                    id: req.params.id
                 }
         })
-
-        
         res.redirect('/')
     },
     userDelete:function(req, res){
@@ -99,8 +81,6 @@ const usersController = {
         .then(function(userToDel) {
             res.render('deleteUser', {userToDel: userToDel}); 
         })
-
-        
     },
     delete: function(req, res){
         db.User.destroy({
@@ -120,8 +100,6 @@ const usersController = {
     req.session.destroy();
     return res.redirect('/');    
     }
-
-    
 }
 
 

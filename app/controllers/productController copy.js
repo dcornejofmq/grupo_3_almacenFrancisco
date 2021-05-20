@@ -1,4 +1,3 @@
-
 const db = require("../database/models");
 
 const productController = {
@@ -7,22 +6,18 @@ const productController = {
         enviarVista = products;         
         
         return res.render('productList',{enviarVista: enviarVista} );
-        
     },
     create: function(req, res) {
         return res.render('createProduct')
-     },
-     save: function(req, res){
-         
+    },
+    save: function(req, res){
         let productNew = {
-            
             id: products[products.length-1].id+1,            
             nameProd: req.body.nameProd,
             description: req.body.description,
             category: req.body.category,            
             price: req.body.price,
             image: req.file.filename
-            
         }
         console.log(products);
         products.push(productNew)
@@ -33,11 +28,8 @@ const productController = {
         fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
         return res.redirect('/');
     },
-
     detail: function(req, res){
-        
         prodFound = products.find(products => (products.id == req.params.id));
-        
         return res.render('productDetail', {prodFound: prodFound});
     },
     cart: function(req, res){
@@ -51,7 +43,6 @@ const productController = {
     },    
     saveEdit: function(req, res) {    
         let productEdit = products.find(products =>(products.id == req.params.id));
-
         let updateProd = products.map(products => {
             if(products.id == productEdit.id){
                 products.nameProd = req.body.nameProd;
@@ -64,7 +55,6 @@ const productController = {
         let productJson = JSON.stringify(updateProd);
         
         fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
-
         res.redirect('/')
     },
     toDelete:function(req, res){
@@ -74,7 +64,6 @@ const productController = {
     },
     delete: function(req, res){
         let prodToDelete = products.find(products => (products.id == req.params.id));
-       
         produ = products.filter(products =>(products.id != prodToDelete.id));
         let productJson = JSON.stringify(produ);
         fs.writeFileSync(path.join(__dirname, '../database/products.json'), productJson);
@@ -84,10 +73,8 @@ const productController = {
         let enviarVista = products.filter(products => (products.category == req.params.idCategory))
         
         
-       return res.render('productList',{enviarVista: enviarVista}); 
+        return res.render('productList',{enviarVista: enviarVista}); 
     }
 }
-
-
 
 module.exports = productController;

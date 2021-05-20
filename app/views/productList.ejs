@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head.ejs') %> 
+<%- include('./partials/head.ejs') %> 
 <body>
     <%- include('./partials/header.ejs') %>
     <main class="cart">
@@ -8,37 +8,41 @@
         <h4>Listado de Productos</h4>
         <% if (locals.adminLogged) { %>
             <div class="buttons">
-            <a href="/products/create"><button class="btn">agregar Producto</button></a>            
+                <a href="/products/create"><button class="btn">agregar Producto</button></a>            
             </div>
-            <% } %>      
-        
-        
-        <div class="cartform">
-           
+        <% } %>
+        <div class="cartform">           
             <div class="line">
-                
             </div>
-            
             <% enviarVista.forEach(function(enviarVista){ %>
-            
             <article class="art">
                 <div class="item">
+<<<<<<< HEAD
                
                 <a class="img" href="/products/<%= enviarVista.id %>"><img class="im" src="/Img/productos png/<%= enviarVista.image %>" alt="arroz" width="100px"></a>
                     </div>
                     <div  class="item-2">
                 <h4><%= enviarVista.nameProd %></h4>
+=======
+                    <a class="img" href="/products/<%= enviarVista.id %>"><img src="/Img/productos png/<%= enviarVista.image %>" alt="arroz" width="100px"></a>
                 </div>
-                
+                <div  class="item-2">
+                    <h4><%= enviarVista.nameProd %></h4>
+>>>>>>> d89e527081a13c74732c71bb2ca63ff4d11a3622
+                </div>
                 <div class="item-4">
                     <h4>Precio</h4>
+<<<<<<< HEAD
                         <textarea  name="price" id="" cols="5" rows="1"><%= enviarVista.price %></textarea>
                     
+=======
+                    <textarea name="price" id="" cols="5" rows="1"><%= enviarVista.price %></textarea>
+>>>>>>> d89e527081a13c74732c71bb2ca63ff4d11a3622
                 </div>
                 <% if (locals.adminLogged) { %>
                 <div class="buttons">
-                <a href="/products/edit/<%= enviarVista.id %>"><button class="btn">Editar Producto</button></a>
-                <a href="/products/erase/<%= enviarVista.id %>"><button class="btn">Eliminar Producto</button></a>
+                    <a href="/products/edit/<%= enviarVista.id %>"><button class="btn">Editar Producto</button></a>
+                    <a href="/products/erase/<%= enviarVista.id %>"><button class="btn">Eliminar Producto</button></a>
                 </div>
                 <% } %>
                 <% if (locals.isLogged) { %>
@@ -49,15 +53,10 @@
 
             </article>
             <div class="line">
-                
             </div>
             <% }); %>
-    </div>
-    
-</main>
-
-
-
+        </div>
+    </main>
     <%- include('./partials/footer.ejs') %>
 </body>
 </html>
