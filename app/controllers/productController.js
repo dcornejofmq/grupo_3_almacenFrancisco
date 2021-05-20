@@ -32,6 +32,8 @@ const productController = {
     },
     cart: function(req, res){
         return res.render('productCart')
+
+        
     },   
     editProd: function(req, res){
         db.Product.findByPk(req.params.id)
