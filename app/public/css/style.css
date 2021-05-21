@@ -238,10 +238,8 @@ footer nav div{
   color: rgb(219, 219, 219);
 margin: auto;
 }
-.icono2{
-display: none;
 
-}
+
 footer article{
 display: none;
 }
@@ -324,13 +322,7 @@ footer{
 header div{
   margin: auto;
 }
-.icono2{
-font-size: 25px;
-  color: rgb(219, 219, 219);
-  padding: 12px; 
-  display: block;
-  text-align: end;
-}
+
 main section article{
   width: 33%;
  
@@ -371,11 +363,33 @@ h6{
   text-align: center;
 
 }
-.icono2{
-  padding: 19px;
-  margin-right: auto;
-  text-align: center;
+
+.cantidad {
+  background-color: black;
+  border-radius: 50%;
+  padding: 0;
+  padding-right: 3px;
+  font-weight: bolder;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 9px;
+  top: 23px;
+  font-size: 18px;
 }
+
+.icono2{
+    font-size: 25px;
+    color: rgb(219, 219, 219);
+    margin-right: auto;
+    font-weight: ;
+    display: block;
+    text-align: end;
+  }
+.icono2 i.fas {
+  font-size: 40px;
+} 
+
 main section h3{
   width: 100%;
 }
