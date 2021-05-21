@@ -33,6 +33,16 @@
                     <a href="/products/erase/<%= enviarVista.id %>"><button class="btn">Eliminar Producto</button></a>
                 </div>
                 <% } %>
+                
+                <form class="addCart col4" method="POST" action="/carrito/addCarrito">
+                    
+                    <input type="hidden" name="id" id="id" value="<%= enviarVista.id %>" >
+                    <input type="hidden" name="img" id="img" value="/Img/productos png/<%= enviarVista.image %>" >
+                    <input type="hidden" name="descProducto" id="descProducto" value="<%= enviarVista.nameProd %> "">
+                    <input type="hidden" name="precio" id="precio" value=<%= enviarVista.price %> >
+                    
+                    <p><button class="btn" type="submit">Agregar al Carrito</button></p>
+                  </form>
             </article>
             <div class="line">
             </div>
