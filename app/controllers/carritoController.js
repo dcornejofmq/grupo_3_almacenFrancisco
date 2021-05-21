@@ -16,27 +16,21 @@ const carritoController = {
             descProducto: req.body.descProducto,
             precio: req.body.precio
         };
-        console.log( "Inicio *** 2");
-        console.log( carrito );
-        console.log( "Inicio *** 3");
-
-        console.log( carritoData );
-        console.log( "Inicio *** 3_1");
-        carritoData.push( carrito );
         
-        console.log( "Inicio *** 4");
-        console.log( "push");
-        console.log( carrito );
+        carritoData.push( carrito );
 
-        console.log( "FIN *** ");
-
+        console.log ( "el valor de carrito")
+        
+        console.log( res.locals.carrito  );
+        res.locals.carrito = res.locals.carrito + 1 ; 
+        console.log ( "el valor de carrito -- despues de la suma")
+        
+        console.log( res.locals.carrito  );
+        
         let carritoJson = JSON.stringify(carritoData);
         
         fs.writeFileSync(path.join(__dirname, '../databaseJSON/carrito.json'), carritoJson);
-        console.log( "CarritoJson ***")
-        console.log(carritoJson);
-        console.log( "request locals");
-        console.log( req );
+        
         return res.redirect( "/");
     }
 }

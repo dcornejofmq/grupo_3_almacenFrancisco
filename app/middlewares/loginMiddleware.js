@@ -3,7 +3,7 @@ function loginMiddleware(req, res, next) {
     
     if (req.session.user) {
         res.locals.isLogged = true;
-        res.locals.carrito = 3;
+        res.locals.carrito = 0;
     }
 
 

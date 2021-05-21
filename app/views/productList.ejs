@@ -33,7 +33,8 @@
                     <a href="/products/erase/<%= enviarVista.id %>"><button class="btn">Eliminar Producto</button></a>
                 </div>
                 <% } %>
-                <% if (!locals.adminLogged) { %>
+
+                <% if (locals.isLogged && !locals.adminLogged ) { %>                
                 <form class="addCart col4" method="POST" action="/carrito/addCarrito">
                     
                     <input type="hidden" name="id" id="id" value="<%= enviarVista.id %>" >
